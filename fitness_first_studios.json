@@ -1,0 +1,5349 @@
+[
+  {
+    "id": 2509882760,
+    "studioName": "Fitness First Vösendorf (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/voesendorf",
+    "phone": "+431609150889",
+    "address": {
+      "street": "Nordring",
+      "houseNumber": "2-10",
+      "zipCode": "2331",
+      "city": "Vösendorf",
+      "countryCode": "AT"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2509875380,
+    "studioName": "Fitness First Wien - Landstraße (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/wien-landstrasse",
+    "phone": "+43 1 201 48 36",
+    "address": {
+      "street": "Schnirchgasse",
+      "houseNumber": "13",
+      "zipCode": "1030",
+      "city": "Wien",
+      "countryCode": "AT"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 2509898060,
+    "studioName": "Fitness First Wien - Liesing (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/wien-liesing",
+    "phone": "016620881",
+    "address": {
+      "street": "Sterngasse",
+      "houseNumber": "11",
+      "zipCode": "1230",
+      "city": "Wien",
+      "countryCode": "AT"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1402628810,
+    "studioName": "Fitness First Goslar",
+    "url": "https://www.fitnessfirst.de/clubs/goslar",
+    "phone": "053214693838",
+    "address": {
+      "street": "",
+      "houseNumber": "",
+      "zipCode": "",
+      "city": "",
+      "countryCode": "DE"
+    },
+    "openingHours": []
+  },
+  {
+    "id": 2407189780,
+    "studioName": "Fitness First Raunheim - Ladies (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/raunheim-women",
+    "phone": "061427947180",
+    "address": {
+      "street": "",
+      "houseNumber": "",
+      "zipCode": "",
+      "city": "",
+      "countryCode": "DE"
+    },
+    "openingHours": []
+  },
+  {
+    "id": 1688438740,
+    "studioName": "Fitness First Aalen",
+    "url": "https://www.fitnessfirst.de/clubs/aalen",
+    "phone": "+49 7361 98810",
+    "address": {
+      "street": "Ulmer Straße",
+      "houseNumber": "142",
+      "zipCode": "73431",
+      "city": "Aalen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2405742150,
+    "studioName": "Fitness First Augsburg (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/augsburg",
+    "phone": "0821 45401886",
+    "address": {
+      "street": "Bahnhofstraße 26‑30",
+      "houseNumber": "",
+      "zipCode": "86152",
+      "city": "Augsburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1883509840,
+    "studioName": "Fitness First Backnang",
+    "url": "https://www.fitnessfirst.de/clubs/backnang",
+    "phone": "+49 7191 9336162",
+    "address": {
+      "street": "Stuttgarter Straße",
+      "houseNumber": "135",
+      "zipCode": "71522",
+      "city": "Backnang",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1639731710,
+    "studioName": "Fitness First Bad Boll",
+    "url": "https://www.fitnessfirst.de/clubs/bad-boll",
+    "phone": "+49 7164 130317",
+    "address": {
+      "street": "Jurastraße",
+      "houseNumber": "13",
+      "zipCode": "73087",
+      "city": "Bad Boll",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "WEDNESDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "THURSDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1606362470,
+    "studioName": "Fitness First Bad Kreuznach",
+    "url": "https://www.fitnessfirst.de/clubs/bad-kreuznach",
+    "phone": "+49 671 79497720",
+    "address": {
+      "street": "Hannah-Arendt-Straße",
+      "houseNumber": "4",
+      "zipCode": "55543",
+      "city": "Bad Kreuznach",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1895666890,
+    "studioName": "Fitness First Bad Rappenau",
+    "url": "https://www.fitnessfirst.de/clubs/bad-rappenau",
+    "phone": "+49 7264 9608491",
+    "address": {
+      "street": "Raiffeisenstraße",
+      "houseNumber": "22",
+      "zipCode": "74906",
+      "city": "Bad Rappenau",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2445302340,
+    "studioName": "Fitness First Berlin - Hohenschönhausen (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-hohenschoenhausen",
+    "phone": "03092404400",
+    "address": {
+      "street": "Hansastraße",
+      "houseNumber": "236",
+      "zipCode": "13051",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2445364210,
+    "studioName": "Fitness First Berlin - Schöneberg (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-schoeneberg",
+    "phone": "030 33878387",
+    "address": {
+      "street": "Bautzener Straße 20‑24",
+      "houseNumber": "",
+      "zipCode": "10829",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1337440790,
+    "studioName": "Fitness First Berlin Prenzlauer-Berg",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-prenzlauer-berg",
+    "phone": "+49 30 4467370",
+    "address": {
+      "street": "Schönhauser Allee",
+      "houseNumber": "80",
+      "zipCode": "10439",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "05:30",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1241680760,
+    "studioName": "Fitness First Berlin Steglitz SSC",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-steglitz-ssc",
+    "phone": "030814560272",
+    "address": {
+      "street": "Walther-Schreiber-Platz",
+      "houseNumber": "1",
+      "zipCode": "12161",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447840130,
+    "studioName": "Fitness First Berlin Wedding (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-wedding",
+    "phone": "03045028220",
+    "address": {
+      "street": "Müllerstraße",
+      "houseNumber": "35",
+      "zipCode": "13353",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1331807400,
+    "studioName": "Fitness First Berlin Women Friedrichshain",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-women-friedrichshain",
+    "phone": "+49 30 4530510",
+    "address": {
+      "street": "Frankfurter Allee",
+      "houseNumber": "57-59",
+      "zipCode": "10247",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1338053500,
+    "studioName": "Fitness First Berlin Zehlendorfer Welle",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-zehlendorfer-welle",
+    "phone": "+49 30 8100930",
+    "address": {
+      "street": "Clayallee",
+      "houseNumber": "328-334",
+      "zipCode": "14169",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SATURDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SUNDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1337439340,
+    "studioName": "Fitness First Berlin-Steglitz",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-steglitz",
+    "phone": "+49 30 7978770",
+    "address": {
+      "street": "Schloßstraße",
+      "houseNumber": "110",
+      "zipCode": "12163",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1330880140,
+    "studioName": "Fitness First Berlin-Wilmersdorf",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-wilmersdorf",
+    "phone": "+49 30 3199110",
+    "address": {
+      "street": "Wilmersdorfer Straße",
+      "houseNumber": "108-111",
+      "zipCode": "10627",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2445626240,
+    "studioName": "Fitness First Hamburg - Bahrenfeld (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-bahrenfeld",
+    "phone": "030 33878387",
+    "address": {
+      "street": "Bautzener Straße",
+      "houseNumber": "20-24",
+      "zipCode": "10829",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1330510340,
+    "studioName": "Frauen-Fitness First Berlin Pankow",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-women-pankow",
+    "phone": "+49 30 25096410",
+    "address": {
+      "street": "Breite Straße",
+      "houseNumber": "33-34",
+      "zipCode": "13187",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1331805970,
+    "studioName": "Frauen-Fitness First Berlin Steglitz im Schloss",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-women-steglitz-im-schloss",
+    "phone": "+49 30 79742850",
+    "address": {
+      "street": "Schloßstraße",
+      "houseNumber": "33-36",
+      "zipCode": "12163",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1337443440,
+    "studioName": "Fitness First Berlin Gendarmenmarkt",
+    "url": "https://www.fitnessfirst.de/clubs/berlin-gendarmenmarkt",
+    "phone": "074729873951",
+    "address": {
+      "street": "Obere Stegwiesen",
+      "houseNumber": "10",
+      "zipCode": "88400",
+      "city": "Biberach an der Riß",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1890996580,
+    "studioName": "Fitness First Biberach",
+    "url": "https://www.fitnessfirst.de/clubs/biberach",
+    "phone": "074729873951",
+    "address": {
+      "street": "Obere Stegwiesen",
+      "houseNumber": "10",
+      "zipCode": "88400",
+      "city": "Biberach an der Riß",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1255748020,
+    "studioName": "Fitness First Bielefeld Boulevard",
+    "url": "https://www.fitnessfirst.de/clubs/bielefeld-boulevard-1",
+    "phone": "+49 521 525180",
+    "address": {
+      "street": "Boulevard",
+      "houseNumber": "1",
+      "zipCode": "33613",
+      "city": "Bielefeld",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1416529920,
+    "studioName": "Fitness First Bielefeld Mitte",
+    "url": "https://www.fitnessfirst.de/clubs/bielefeld-mitte",
+    "phone": "+49 521 93844362",
+    "address": {
+      "street": "Stadtheider Straße",
+      "houseNumber": "10",
+      "zipCode": "33609",
+      "city": "Bielefeld",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1884726910,
+    "studioName": "Fitness First Bietigheim-Bissingen",
+    "url": "https://www.fitnessfirst.de/clubs/bietigheim-bissingen",
+    "phone": "+49 7142 9158531",
+    "address": {
+      "street": "Otto-Konz-Straße",
+      "houseNumber": "1",
+      "zipCode": "74321",
+      "city": "Bietigheim-Bissingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1576472940,
+    "studioName": "Fitness First Blieskastel",
+    "url": "https://www.fitnessfirst.de/clubs/blieskastel",
+    "phone": "+49 6842 9616669",
+    "address": {
+      "street": "Auf Scharlen",
+      "houseNumber": "3",
+      "zipCode": "66440",
+      "city": "Blieskastel",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "19:00"
+      }
+    ]
+  },
+  {
+    "id": 2017439540,
+    "studioName": "Fitness First Blomberg",
+    "url": "https://www.fitnessfirst.de/clubs/blomberg",
+    "phone": "+49 5235 5091355",
+    "address": {
+      "street": "Auf den Kreuzen",
+      "houseNumber": "27",
+      "zipCode": "32825",
+      "city": "Blomberg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "00:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1319906560,
+    "studioName": "Fitness First Bonn-Mitte",
+    "url": "https://www.fitnessfirst.de/clubs/bonn",
+    "phone": "+49 228 948900",
+    "address": {
+      "street": "Markt",
+      "houseNumber": "13-21",
+      "zipCode": "53111",
+      "city": "Bonn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1430297550,
+    "studioName": "Fitness First Braunschweig",
+    "url": "https://www.fitnessfirst.de/clubs/braunschweig",
+    "phone": "+49 531 20835323",
+    "address": {
+      "street": "Böcklerstraße",
+      "houseNumber": "30",
+      "zipCode": "38102",
+      "city": "Braunschweig",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2445486020,
+    "studioName": "Fitness First Bremen Neustadt (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/bremen-neustadt",
+    "phone": "042159767440",
+    "address": {
+      "street": "Duckwitzstraße",
+      "houseNumber": "55",
+      "zipCode": "28199",
+      "city": "Bremen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1450517760,
+    "studioName": "Fitness First Bremen Süd",
+    "url": "https://www.fitnessfirst.de/clubs/bremen-sued",
+    "phone": "+49 421 5966341",
+    "address": {
+      "street": "Volkmannstraße",
+      "houseNumber": "2",
+      "zipCode": "28201",
+      "city": "Bremen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1441439090,
+    "studioName": "Fitness First Bremen Überseestadt",
+    "url": "https://www.fitnessfirst.de/clubs/bremen-ueberseestadt",
+    "phone": "+49 421 33118680",
+    "address": {
+      "street": "Konsul-Smidt-Straße",
+      "houseNumber": "18a",
+      "zipCode": "28217",
+      "city": "Bremen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1895671670,
+    "studioName": "Fitness First Bretten",
+    "url": "https://www.fitnessfirst.de/clubs/bretten",
+    "phone": "+49 7252 123456",
+    "address": {
+      "street": "Beispielstraße",
+      "houseNumber": "1",
+      "zipCode": "75015",
+      "city": "Bretten",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1413034650,
+    "studioName": "Fitness First Bünde",
+    "url": "https://www.fitnessfirst.de/clubs/buende",
+    "phone": "+49 5223 123456",
+    "address": {
+      "street": "Dünner Straße",
+      "houseNumber": "10",
+      "zipCode": "32257",
+      "city": "Bünde",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2449631390,
+    "studioName": "Fitness First Cloppenburg (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/cloppenburg",
+    "phone": "04471 9587070",
+    "address": {
+      "street": "Lange Straße 26‑30",
+      "houseNumber": "",
+      "zipCode": "49661",
+      "city": "Cloppenburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1426282580,
+    "studioName": "Fitness First Cottbus",
+    "url": "https://www.fitnessfirst.de/clubs/cottbus",
+    "phone": "+49 355 49378321",
+    "address": {
+      "street": "Curt-Möbius-Straße",
+      "houseNumber": "48",
+      "zipCode": "03042",
+      "city": "Cottbus",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1895669100,
+    "studioName": "Fitness First Crailsheim",
+    "url": "https://www.fitnessfirst.de/clubs/crailsheim",
+    "phone": "+49 7951 9633440",
+    "address": {
+      "street": "Haller Straße",
+      "houseNumber": "197",
+      "zipCode": "74564",
+      "city": "Crailsheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2298339140,
+    "studioName": "Fitness First Darmstadt - Heidelberger Straße",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-heidelbergerstrasse",
+    "phone": "061512748333",
+    "address": {
+      "street": "Heidelberger Straße",
+      "houseNumber": "185",
+      "zipCode": "64285",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1268658070,
+    "studioName": "Fitness First Darmstadt - Neckarstraße",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-neckarstrasse",
+    "phone": "+49 6151 539350",
+    "address": {
+      "street": "Neckarstraße",
+      "houseNumber": "12-16",
+      "zipCode": "64283",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2141560220,
+    "studioName": "Fitness First Darmstadt Eberstadt",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-eberstadt",
+    "phone": "+49 6151 2749245",
+    "address": {
+      "street": "Pfungstädter Straße",
+      "houseNumber": "92",
+      "zipCode": "64297",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2159838350,
+    "studioName": "Fitness First Darmstadt Eschollbrückerstraße",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-eschollbruecker",
+    "phone": "+49 6151 2749247",
+    "address": {
+      "street": "Eschollbrücker Straße",
+      "houseNumber": "42",
+      "zipCode": "64295",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2159878580,
+    "studioName": "Fitness First Darmstadt Hauptbahnhof",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-hauptbahnhof",
+    "phone": "+49 6151 2749249",
+    "address": {
+      "street": "Poststraße",
+      "houseNumber": "4-6",
+      "zipCode": "64293",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "00:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2130588420,
+    "studioName": "Fitness First Darmstadt Kleyerstraße",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-kleyerstrasse",
+    "phone": "+49 6151 2749001",
+    "address": {
+      "street": "Kleyerstraße",
+      "houseNumber": "4",
+      "zipCode": "64295",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2141724950,
+    "studioName": "Fitness First Darmstadt Ludwigsplatz Ladies",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-women-ludwigsplatz",
+    "phone": "+49 6151 2749244",
+    "address": {
+      "street": "Ludwigsplatz",
+      "houseNumber": "6",
+      "zipCode": "64283",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:30"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "19:00"
+      }
+    ]
+  },
+  {
+    "id": 2158735880,
+    "studioName": "Fitness First Darmstadt Mornewegstraße",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-mornewegstrasse",
+    "phone": "+49 6151 7805400",
+    "address": {
+      "street": "Mornewegstraße",
+      "houseNumber": "32",
+      "zipCode": "64293",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "18:00"
+      }
+    ]
+  },
+  {
+    "id": 2158821780,
+    "studioName": "Fitness First Darmstadt Ostbahnhof",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-ostbahnhof",
+    "phone": "+49 6151 2749237",
+    "address": {
+      "street": "Erbacher Straße",
+      "houseNumber": "87",
+      "zipCode": "64287",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2141663170,
+    "studioName": "Fitness First Darmstadt Pfnorstraße",
+    "url": "https://www.fitnessfirst.de/clubs/darmstadt-pfnorstrasse",
+    "phone": "+49 6151 2749239",
+    "address": {
+      "street": "Pfnorstraße",
+      "houseNumber": "14",
+      "zipCode": "64293",
+      "city": "Darmstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1463335190,
+    "studioName": "Fitness First Datteln",
+    "url": "https://www.fitnessfirst.de/clubs/datteln",
+    "phone": "+49 2363 5698330",
+    "address": {
+      "street": "Wiesenstraße",
+      "houseNumber": "6",
+      "zipCode": "45711",
+      "city": "Datteln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2017436370,
+    "studioName": "Fitness First Detmold",
+    "url": "https://www.fitnessfirst.de/clubs/detmold",
+    "phone": "+49 5231 9807771",
+    "address": {
+      "street": "Wittekindstraße",
+      "houseNumber": "26",
+      "zipCode": "32758",
+      "city": "Detmold",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "00:00",
+        "timeTo": "23:59"
+      }
+    ]
+  },
+  {
+    "id": 1460068730,
+    "studioName": "Fitness First Dorsten",
+    "url": "https://www.fitnessfirst.de/clubs/dorsten",
+    "phone": "+49 2362 7031300",
+    "address": {
+      "street": "Fürst-Leopold-Allee",
+      "houseNumber": "77",
+      "zipCode": "46284",
+      "city": "Dorsten",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2445876250,
+    "studioName": "Fitness First Dortmund (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/dortmund",
+    "phone": "023153477470",
+    "address": {
+      "street": "Brauhausstraße",
+      "houseNumber": "7",
+      "zipCode": "44137",
+      "city": "Dortmund",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1425155790,
+    "studioName": "Fitness First Dresden Altstadt",
+    "url": "https://www.fitnessfirst.de/clubs/dresden-altstadt",
+    "phone": "+49 351 79991377",
+    "address": {
+      "street": "Grunaer Straße",
+      "houseNumber": "14",
+      "zipCode": "01069",
+      "city": "Dresden",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447780470,
+    "studioName": "Fitness First Dresden Postplatz (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/dresden-postplatz",
+    "phone": "035148677780",
+    "address": {
+      "street": "Postplatz",
+      "houseNumber": "1",
+      "zipCode": "01067",
+      "city": "Dresden",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1274276050,
+    "studioName": "Fitness First Dresden Prager Straße",
+    "url": "https://www.fitnessfirst.de/clubs/dresden-prager-spitze",
+    "phone": "+49 351 484550",
+    "address": {
+      "street": "Prager Straße",
+      "houseNumber": "2a",
+      "zipCode": "01069",
+      "city": "Dresden",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2447783370,
+    "studioName": "Fitness First Düsseldorf - Am Seestern (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/duesseldorf-seestern",
+    "phone": "021115872444",
+    "address": {
+      "street": "Fritz-Vomfelde-Straße",
+      "houseNumber": "26",
+      "zipCode": "40547",
+      "city": "Düsseldorf",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2445923070,
+    "studioName": "Fitness First Düsseldorf - Düsseltal (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/duesseldorf-duesseltal",
+    "phone": "0211 64159116",
+    "address": {
+      "street": "Grafenbergerallee",
+      "houseNumber": "297",
+      "zipCode": "40237",
+      "city": "Düsseldorf",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1456156730,
+    "studioName": "Fitness First Düsseldorf - In der Kö Galerie",
+    "url": "https://www.fitnessfirst.de/clubs/duesseldorf-in-der-koe-galerie",
+    "phone": "+49 211 8285380",
+    "address": {
+      "street": "Königsallee",
+      "houseNumber": "60",
+      "zipCode": "40212",
+      "city": "Düsseldorf",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:30"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:30",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1418080850,
+    "studioName": "Fitness First Düsseldorf Holthausen",
+    "url": "https://www.fitnessfirst.de/clubs/duesseldorf-holthausen",
+    "phone": "+49 211 97269900",
+    "address": {
+      "street": "Bonner Straße",
+      "houseNumber": "29",
+      "zipCode": "40589",
+      "city": "Düsseldorf",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1312263410,
+    "studioName": "Fitness First Düsseldorf im Lighthouse",
+    "url": "https://www.fitnessfirst.de/clubs/duesseldorf-derendorf-im-lighthouse",
+    "phone": "+49 211 2740050",
+    "address": {
+      "street": "Derendorfer Allee",
+      "houseNumber": "6",
+      "zipCode": "40476",
+      "city": "Düsseldorf",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1254452530,
+    "studioName": "Fitness First Essen - Kettwig",
+    "url": "https://www.fitnessfirst.de/clubs/essen-kettwig",
+    "phone": "+49 2054 95800",
+    "address": {
+      "street": "Montebruchstraße",
+      "houseNumber": "22",
+      "zipCode": "45219",
+      "city": "Essen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:45",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1884725920,
+    "studioName": "Fitness First Esslingen Adenauerbrücke",
+    "url": "https://www.fitnessfirst.de/clubs/esslingen-adenauerbruecke",
+    "phone": "+49 711 31087355",
+    "address": {
+      "street": "Rennstraße",
+      "houseNumber": "28",
+      "zipCode": "73728",
+      "city": "Esslingen am Neckar",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1549742170,
+    "studioName": "Fitness First Esslingen: Das Dick",
+    "url": "https://www.fitnessfirst.de/clubs/esslingen-das-dick",
+    "phone": "+49 711 3964400",
+    "address": {
+      "street": "Kollwitzstraße",
+      "houseNumber": "1",
+      "zipCode": "73728",
+      "city": "Esslingen am Neckar",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1682293180,
+    "studioName": "Fitness First Esslingen: Hengestenberg",
+    "url": "https://www.fitnessfirst.de/clubs/esslingen-hengstenberg",
+    "phone": "+49 711 50488499",
+    "address": {
+      "street": "Mettinger Straße",
+      "houseNumber": "113",
+      "zipCode": "73728",
+      "city": "Esslingen am Neckar",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1890994800,
+    "studioName": "Fitness First Ettlingen",
+    "url": "https://www.fitnessfirst.de/clubs/ettlingen",
+    "phone": "+49 0",
+    "address": {
+      "street": "Zehntwiesenstraße",
+      "houseNumber": "47",
+      "zipCode": "76275",
+      "city": "Ettlingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1884717260,
+    "studioName": "Fitness First Fellbach",
+    "url": "https://www.fitnessfirst.de/clubs/fellbach",
+    "phone": "+49 711 31087356",
+    "address": {
+      "street": "Stuttgarter Straße",
+      "houseNumber": "106",
+      "zipCode": "70736",
+      "city": "Fellbach",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2407179550,
+    "studioName": "Fitness First Frankfurt - Preungesheim (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-preungesheim",
+    "phone": "069 90548358",
+    "address": {
+      "street": "August‑Schanz‑Straße 33‑35",
+      "houseNumber": "",
+      "zipCode": "60433",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2158635620,
+    "studioName": "Fitness First Frankfurt Bockenheim",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-bockenheim",
+    "phone": "+49 69 96759731",
+    "address": {
+      "street": "Solmsstraße",
+      "houseNumber": "18",
+      "zipCode": "60486",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1285923430,
+    "studioName": "Fitness First Frankfurt Eschenheimer Turm",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-eschenheimer-turm",
+    "phone": "+49 69 96373500",
+    "address": {
+      "street": "Hochstraße",
+      "houseNumber": "2-4",
+      "zipCode": "60313",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2158632650,
+    "studioName": "Fitness First Frankfurt Industriehof",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-industriehof",
+    "phone": "+49 69 703788",
+    "address": {
+      "street": "Trakehner Straße",
+      "houseNumber": "5",
+      "zipCode": "60487",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1289843950,
+    "studioName": "Fitness First Frankfurt Konstablerwache",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-konstablerwache-zeil",
+    "phone": "+49 69 1338760",
+    "address": {
+      "street": "Zeil",
+      "houseNumber": "72-82",
+      "zipCode": "60313",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1292694020,
+    "studioName": "Fitness First Frankfurt Opernplatz",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-opernplatz",
+    "phone": "+49 69 96373200",
+    "address": {
+      "street": "Hochstraße",
+      "houseNumber": "44",
+      "zipCode": "60313",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1285922650,
+    "studioName": "Fitness First Frankfurt Ostend",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-ostend",
+    "phone": "+49 69 90430080",
+    "address": {
+      "street": "Hanauer Landstraße",
+      "houseNumber": "148",
+      "zipCode": "60314",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2159740720,
+    "studioName": "Fitness First Frankfurt Rödelheim Ladies",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-women-roedelheim",
+    "phone": "+49 69 96755041",
+    "address": {
+      "street": "Rödelheimer Bahnweg",
+      "houseNumber": "19",
+      "zipCode": "60489",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "19:00"
+      }
+    ]
+  },
+  {
+    "id": 1291822090,
+    "studioName": "Fitness First Frankfurt: Eckenheim",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-eckenheim",
+    "phone": "+49 69 96373300",
+    "address": {
+      "street": "Karl-von-Drais-Straße",
+      "houseNumber": "5a",
+      "zipCode": "60435",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1297314090,
+    "studioName": "Fitness First Frankfurt: Myzeil",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-myzeil",
+    "phone": "+49 69 2097380",
+    "address": {
+      "street": "Zeil",
+      "houseNumber": "102-106",
+      "zipCode": "60313",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1285865290,
+    "studioName": "Fitness First Frankfurt: Westend",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-westend",
+    "phone": "+49 69 7703960",
+    "address": {
+      "street": "Reuterweg",
+      "houseNumber": "18",
+      "zipCode": "60323",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1249347530,
+    "studioName": "Frauen-Fitness First Frankfurt Sachsenhausen",
+    "url": "https://www.fitnessfirst.de/clubs/frankfurt-women-sachsenhausen",
+    "phone": "+49 69 96373400",
+    "address": {
+      "street": "Hedderichstraße",
+      "houseNumber": "51",
+      "zipCode": "60594",
+      "city": "Frankfurt am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1549475630,
+    "studioName": "Fitness First Freiburg",
+    "url": "https://www.fitnessfirst.de/clubs/freiburg",
+    "phone": "+49 761 380930",
+    "address": {
+      "street": "Auf der Zinnen",
+      "houseNumber": "1",
+      "zipCode": "79098",
+      "city": "Freiburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2407178250,
+    "studioName": "Fitness First Fürth (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/fuerth",
+    "phone": "0911 97697423",
+    "address": {
+      "street": "Fürther Freiheit",
+      "houseNumber": "8-10",
+      "zipCode": "90762",
+      "city": "Fürth",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1661288370,
+    "studioName": "Fitness First Geislingen",
+    "url": "https://www.fitnessfirst.de/clubs/geislingen",
+    "phone": "+49 7331 301780",
+    "address": {
+      "street": "Gartenstraße",
+      "houseNumber": "30",
+      "zipCode": "73312",
+      "city": "Geislingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1459127920,
+    "studioName": "Fitness First Georgsmarienhütte",
+    "url": "https://www.fitnessfirst.de/clubs/georgsmarienhuette",
+    "phone": "+49 5401 8317800",
+    "address": {
+      "street": "Klöcknerstraße",
+      "houseNumber": "2",
+      "zipCode": "49124",
+      "city": "Georgsmarienhütte",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447844360,
+    "studioName": "Fitness First Gera (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/gera",
+    "phone": "036555218467",
+    "address": {
+      "street": "Museumsplatz",
+      "houseNumber": "2",
+      "zipCode": "07545",
+      "city": "Gera",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1680363620,
+    "studioName": "Fitness First Giengen",
+    "url": "https://www.fitnessfirst.de/clubs/giengen",
+    "phone": "+49 7322 1341690",
+    "address": {
+      "street": "Chemnitzer Straße",
+      "houseNumber": "2",
+      "zipCode": "89537",
+      "city": "Giengen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1449813910,
+    "studioName": "Fitness First Gifhorn",
+    "url": "https://www.fitnessfirst.de/clubs/gifhorn",
+    "phone": "+49 5371 5894620",
+    "address": {
+      "street": "Celler Straße",
+      "houseNumber": "110",
+      "zipCode": "38518",
+      "city": "Gifhorn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2159914070,
+    "studioName": "Fitness First Griesheim",
+    "url": "https://www.fitnessfirst.de/clubs/griesheim",
+    "phone": "061512749034",
+    "address": {
+      "street": "Im Leuschnerpark",
+      "houseNumber": "4",
+      "zipCode": "64347",
+      "city": "Griesheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2141532870,
+    "studioName": "Fitness First Groß-Gerau",
+    "url": "https://www.fitnessfirst.de/clubs/gross-gerau",
+    "phone": "06151 2749007",
+    "address": {
+      "street": "Im Neugrund",
+      "houseNumber": "11",
+      "zipCode": "64521",
+      "city": "Groß‑Gerau",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1658010100,
+    "studioName": "Fitness First Göppingen: Am Autohof",
+    "url": "https://www.fitnessfirst.de/clubs/goeppingen-am-autohof",
+    "phone": "+49 7161 9343822",
+    "address": {
+      "street": "Am Autohof",
+      "houseNumber": "43",
+      "zipCode": "73037",
+      "city": "Göppingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SATURDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SUNDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1657037530,
+    "studioName": "Fitness First Göppingen: City",
+    "url": "https://www.fitnessfirst.de/clubs/goeppingen-city",
+    "phone": "+49 7161 5045408",
+    "address": {
+      "street": "Hohenstaufenstraße",
+      "houseNumber": "16",
+      "zipCode": "73033",
+      "city": "Göppingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "MONDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "TUESDAY",
+        "dayOfWeekTo": "TUESDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "WEDNESDAY",
+        "dayOfWeekTo": "WEDNESDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "THURSDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1666302650,
+    "studioName": "Fitness First Göppingen: Stauferpark",
+    "url": "https://www.fitnessfirst.de/clubs/goeppingen-stauferpark",
+    "phone": "+49 7161 951070",
+    "address": {
+      "street": "Manfred-Wörner-Straße",
+      "houseNumber": "109",
+      "zipCode": "73037",
+      "city": "Göppingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1270047300,
+    "studioName": "Fitness First Göttingen An der Uni",
+    "url": "https://www.fitnessfirst.de/clubs/goettingen",
+    "phone": "+49 551 505530",
+    "address": {
+      "street": "Weender Landstraße",
+      "houseNumber": "8",
+      "zipCode": "37073",
+      "city": "Göttingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:30"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1425678230,
+    "studioName": "Fitness First Göttingen: Im Carré",
+    "url": "https://www.fitnessfirst.de/clubs/goettingen-im-carre",
+    "phone": "+49 551 50535777",
+    "address": {
+      "street": "Weender Straße",
+      "houseNumber": "75",
+      "zipCode": "37073",
+      "city": "Göttingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1432648510,
+    "studioName": "Fitness First Hamburg - Harburg",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-harburg-hafen",
+    "phone": "+49 40 30375960",
+    "address": {
+      "street": "Theodor-Yorck-Straße",
+      "houseNumber": "4",
+      "zipCode": "21079",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2445880970,
+    "studioName": "Fitness First Hamburg - Langenhorn (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-langenhorn",
+    "phone": "04057258010",
+    "address": {
+      "street": "Langenhorner Markt",
+      "houseNumber": "1-18",
+      "zipCode": "22415",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2447822250,
+    "studioName": "Fitness First Hamburg - Lüneburger Tor(ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-harburg-lueneburger-tor",
+    "phone": "04070299860",
+    "address": {
+      "street": "Lüneburger Tor",
+      "houseNumber": "8",
+      "zipCode": "21073",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1376260040,
+    "studioName": "Fitness First Hamburg - Niendorf",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-niendorf",
+    "phone": "+49 40 521050",
+    "address": {
+      "street": "Kollaustraße",
+      "houseNumber": "127-135",
+      "zipCode": "22453",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1375487790,
+    "studioName": "Fitness First Hamburg - St. Georg",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-st-georg-hbf",
+    "phone": "0403009080",
+    "address": {
+      "street": "Glockengießerwall",
+      "houseNumber": "3",
+      "zipCode": "20095",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1210184710,
+    "studioName": "Fitness First Hamburg Alsterufer",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-alsterufer",
+    "phone": "040 524 759 455",
+    "address": {
+      "street": "Warburgstraße 1‑2",
+      "houseNumber": "",
+      "zipCode": "20354",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1210077860,
+    "studioName": "Fitness First Hamburg Eppendorf",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-eppendorf-strassenbahnring",
+    "phone": "040 524 75 94 54",
+    "address": {
+      "street": "Straßenbahnring",
+      "houseNumber": "8",
+      "zipCode": "20251",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1380428710,
+    "studioName": "Fitness First Hamburg Eppendorf",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-eppendorf",
+    "phone": "+49 40 4146750",
+    "address": {
+      "street": "Falkenried",
+      "houseNumber": "88",
+      "zipCode": "20251",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1210006600,
+    "studioName": "Fitness First Hamburg Innenstadt Dammtorpark",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-innenstadt-dammtorpark",
+    "phone": "040 524 75 94 53",
+    "address": {
+      "street": "Gorch‑Fock‑Wall",
+      "houseNumber": "3",
+      "zipCode": "20354",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1376532610,
+    "studioName": "Fitness First Hamburg Mitte/Jungfernstieg",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-mitte-jungfernstieg",
+    "phone": "+49 40 611880",
+    "address": {
+      "street": "Ballindamm",
+      "houseNumber": "39",
+      "zipCode": "20095",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1375550710,
+    "studioName": "Fitness First Hamburg Neustadt/ Rödingsmarkt",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-neustadt-roedingsmarkt",
+    "phone": "+49 40 3680280",
+    "address": {
+      "street": "Rödingsmarkt",
+      "houseNumber": "9",
+      "zipCode": "20459",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1214789660,
+    "studioName": "Fitness First Hamburg Stadthöfe",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-stadthoefe",
+    "phone": "040 524 75 94 56",
+    "address": {
+      "street": "Bleichenbrücke",
+      "houseNumber": "9",
+      "zipCode": "20354",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1384437500,
+    "studioName": "Fitness First Hamburg Stephansplatz",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-stephansplatz",
+    "phone": "040 18210810",
+    "address": {
+      "street": "Gorch-Fock-Wall",
+      "houseNumber": "1a",
+      "zipCode": "20354",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1217745570,
+    "studioName": "Fitness First Hamburg Winterhude",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-winterhude",
+    "phone": "040524759457",
+    "address": {
+      "street": "Humboldtstraße",
+      "houseNumber": "58",
+      "zipCode": "22086",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1382249270,
+    "studioName": "Fitness First Hamburg-Altona",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-altona",
+    "phone": "+49 40 18133200",
+    "address": {
+      "street": "Stresemannstraße",
+      "houseNumber": "300",
+      "zipCode": "22761",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1381304420,
+    "studioName": "Fitness First Hamburg-Wandsbek",
+    "url": "https://www.fitnessfirst.de/clubs/hamburg-wandsbek",
+    "phone": "+49 40 5260590",
+    "address": {
+      "street": "Wandsbeker Marktstraße",
+      "houseNumber": "2",
+      "zipCode": "22041",
+      "city": "Hamburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1460912610,
+    "studioName": "Fitness First Hamm",
+    "url": "https://www.fitnessfirst.de/clubs/hamm",
+    "phone": "023814913395",
+    "address": {
+      "street": "Römerstraße",
+      "houseNumber": "30",
+      "zipCode": "59075",
+      "city": "Hamm",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447826140,
+    "studioName": "Fitness First Hannover - Georgstraße (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/hannover-georgstrasse",
+    "phone": "069408016555",
+    "address": {
+      "street": "Georgstraße",
+      "houseNumber": "10-14",
+      "zipCode": "30159",
+      "city": "Hannover",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1440050380,
+    "studioName": "Fitness First Hannover City",
+    "url": "https://www.fitnessfirst.de/clubs/hannover-city",
+    "phone": "+49 511 33098210",
+    "address": {
+      "street": "Große Packhofstraße",
+      "houseNumber": "41-45",
+      "zipCode": "30159",
+      "city": "Hannover",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1895671930,
+    "studioName": "Fitness First Heidenheim Steinheimer",
+    "url": "https://www.fitnessfirst.de/clubs/heidenheim-steinheimer",
+    "phone": "+49 7321 3457650",
+    "address": {
+      "street": "Steinheimer Straße",
+      "houseNumber": "53",
+      "zipCode": "89522",
+      "city": "Heidenheim an der Brenz",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1682600400,
+    "studioName": "Fitness First Heidenheim am Brenzpark",
+    "url": "https://www.fitnessfirst.de/clubs/heidenheim-am-brenzpark",
+    "phone": "+49 7321 925286",
+    "address": {
+      "street": "Schnaitheimer Straße",
+      "houseNumber": "76",
+      "zipCode": "89520",
+      "city": "Heidenheim an der Brenz",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2509890090,
+    "studioName": "Fitness First Wien - Floridsdorf (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/wien-floridsdorf",
+    "phone": "07131/3843155",
+    "address": {
+      "street": "Kastellstraße",
+      "houseNumber": "56",
+      "zipCode": "74080",
+      "city": "Heilbronn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "10:00",
+        "timeTo": "19:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "17:00"
+      }
+    ]
+  },
+  {
+    "id": 2408786580,
+    "studioName": "Fitness First Heilbronn",
+    "url": "https://www.fitnessfirst.de/clubs/heilbronn",
+    "phone": "07131/3843155",
+    "address": {
+      "street": "Kastellstraße",
+      "houseNumber": "56",
+      "zipCode": "74080",
+      "city": "Heilbronn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "10:00",
+        "timeTo": "19:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "17:00"
+      }
+    ]
+  },
+  {
+    "id": 1439644620,
+    "studioName": "Fitness First Hildesheim",
+    "url": "https://www.fitnessfirst.de/clubs/hildesheim",
+    "phone": "+49 5121 6069540",
+    "address": {
+      "street": "Bavenstedter Straße",
+      "houseNumber": "65",
+      "zipCode": "31135",
+      "city": "Hildesheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1606418930,
+    "studioName": "Fitness First Homburg",
+    "url": "https://www.fitnessfirst.de/clubs/homburg",
+    "phone": "+49 6841 9943344",
+    "address": {
+      "street": "Berliner Straße",
+      "houseNumber": "80",
+      "zipCode": "66424",
+      "city": "Homburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2017439250,
+    "studioName": "Fitness First Horn",
+    "url": "https://www.fitnessfirst.de/clubs/horn",
+    "phone": "+49 5234 820920",
+    "address": {
+      "street": "Carl-Zeiss-Straße",
+      "houseNumber": "2",
+      "zipCode": "32805",
+      "city": "Horn-Bad Meinberg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "00:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1579541630,
+    "studioName": "Fitness First Idar-Oberstein: Am Kreisel",
+    "url": "https://www.fitnessfirst.de/clubs/idar-oberstein-kreisel",
+    "phone": "06781567887",
+    "address": {
+      "street": "Vollmersbachstraße",
+      "houseNumber": "71",
+      "zipCode": "55743",
+      "city": "Idar-Oberstein",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1572938000,
+    "studioName": "Fitness First Idar-Oberstein: Festplatz",
+    "url": "https://www.fitnessfirst.de/clubs/idar-oberstein-festplatz",
+    "phone": "+49 6781 900999",
+    "address": {
+      "street": "Vollmersbachstraße",
+      "houseNumber": "78",
+      "zipCode": "55743",
+      "city": "Idar-Oberstein",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SATURDAY",
+        "timeFrom": "09:30",
+        "timeTo": "17:00"
+      },
+      {
+        "dayOfWeekFrom": "SUNDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:30",
+        "timeTo": "15:00"
+      }
+    ]
+  },
+  {
+    "id": 2405757110,
+    "studioName": "Fitness First Ingolstadt (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/ingolstadt",
+    "phone": "084199320630",
+    "address": {
+      "street": "Am Westpark",
+      "houseNumber": "3",
+      "zipCode": "85057",
+      "city": "Ingolstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1270072180,
+    "studioName": "Fitness First Kaiserslautern",
+    "url": "https://www.fitnessfirst.de/clubs/kaiserslautern",
+    "phone": "+49 631 366940",
+    "address": {
+      "street": "Straßburger Allee",
+      "houseNumber": "4",
+      "zipCode": "67657",
+      "city": "Kaiserslautern",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1255080510,
+    "studioName": "Fitness First Kassel",
+    "url": "https://www.fitnessfirst.de/clubs/kassel",
+    "phone": "0561207960",
+    "address": {
+      "street": "Wilhelmshöher Allee",
+      "houseNumber": "91",
+      "zipCode": "34121",
+      "city": "Kassel",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:30"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1602430120,
+    "studioName": "Fitness First Kirn",
+    "url": "https://www.fitnessfirst.de/clubs/kirn",
+    "phone": "+49 6752 1379868",
+    "address": {
+      "street": "Steinweg",
+      "houseNumber": "28",
+      "zipCode": "55606",
+      "city": "Kirn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1883508710,
+    "studioName": "Fitness First Kornwestheim",
+    "url": "https://www.fitnessfirst.de/clubs/kornwestheim",
+    "phone": "+49 7141 9741700",
+    "address": {
+      "street": "Ohiostraße",
+      "houseNumber": "1",
+      "zipCode": "70806",
+      "city": "Kornwestheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "WEDNESDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "THURSDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1312319190,
+    "studioName": "Fitness First Köln Bayenthal",
+    "url": "https://www.fitnessfirst.de/clubs/koeln-bayenthal",
+    "phone": "+49 221 3480460",
+    "address": {
+      "street": "Bonner Straße",
+      "houseNumber": "271",
+      "zipCode": "50968",
+      "city": "Köln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1312256840,
+    "studioName": "Fitness First Köln Breite Straße",
+    "url": "https://www.fitnessfirst.de/clubs/fitnessstudio-koeln-breite-strasse",
+    "phone": "+49 221 7896140",
+    "address": {
+      "street": "Breite Straße",
+      "houseNumber": "80-90",
+      "zipCode": "50667",
+      "city": "Köln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1321089840,
+    "studioName": "Fitness First Köln Ehrenfeld",
+    "url": "https://www.fitnessfirst.de/clubs/koeln-ehrenfeld",
+    "phone": "+49 221 5029470",
+    "address": {
+      "street": "Venloer Straße",
+      "houseNumber": "389",
+      "zipCode": "50825",
+      "city": "Köln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1415452200,
+    "studioName": "Fitness First Köln Eigelstein",
+    "url": "https://www.fitnessfirst.de/clubs/koeln-eigelstein",
+    "phone": "0221 779392",
+    "address": {
+      "street": "Eigelstein",
+      "houseNumber": "80-88",
+      "zipCode": "50668",
+      "city": "Köln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1317157790,
+    "studioName": "Fitness First Köln Schildergasse",
+    "url": "https://www.fitnessfirst.de/clubs/koeln-innenstadt-schildergasse",
+    "phone": "0221272620",
+    "address": {
+      "street": "Schildergasse",
+      "houseNumber": "94-96",
+      "zipCode": "50667",
+      "city": "Köln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1312259220,
+    "studioName": "Fitness First Köln Sülz",
+    "url": "https://www.fitnessfirst.de/clubs/koeln-suelz",
+    "phone": "+49 221 2827550",
+    "address": {
+      "street": "Luxemburger Straße",
+      "houseNumber": "253",
+      "zipCode": "50939",
+      "city": "Köln",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1439721570,
+    "studioName": "Fitness First Laatzen",
+    "url": "https://www.fitnessfirst.de/clubs/laatzen",
+    "phone": "+49 5102 5220",
+    "address": {
+      "street": "Albert-Schweitzer-Straße",
+      "houseNumber": "10",
+      "zipCode": "30880",
+      "city": "Laatzen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2406515870,
+    "studioName": "Fitness First Laufenburg (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/laufenburg",
+    "phone": "077638049670",
+    "address": {
+      "street": "Gehrengrabenstraße",
+      "houseNumber": "2",
+      "zipCode": "79725",
+      "city": "Laufenburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1895674540,
+    "studioName": "Fitness First Laupheim",
+    "url": "https://www.fitnessfirst.de/clubs/laupheim",
+    "phone": "+49 7392 1503106",
+    "address": {
+      "street": "Biberacher Straße",
+      "houseNumber": "9",
+      "zipCode": "88471",
+      "city": "Laupheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447818860,
+    "studioName": "Fitness First Leipzig - Thomaskirche (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/leipzig-thomaskirche",
+    "phone": "034125355164",
+    "address": {
+      "street": "Petersstraße",
+      "houseNumber": "20",
+      "zipCode": "04109",
+      "city": "Leipzig",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1264196080,
+    "studioName": "Fitness First Leipzig-Messehof",
+    "url": "https://www.fitnessfirst.de/clubs/leipzig-mitte-messehof",
+    "phone": "+49 341 241440",
+    "address": {
+      "street": "Petersstraße",
+      "houseNumber": "15",
+      "zipCode": "04109",
+      "city": "Leipzig",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "WEDNESDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "THURSDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 2006688920,
+    "studioName": "Fitness First Lemgo",
+    "url": "https://www.fitnessfirst.de/clubs/lemgo",
+    "phone": "05261 9201655",
+    "address": {
+      "street": "Lagesche Straße",
+      "houseNumber": "54b",
+      "zipCode": "32657",
+      "city": "Lemgo",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "00:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2017435380,
+    "studioName": "Fitness First Asemissen",
+    "url": "https://www.fitnessfirst.de/clubs/asemissen",
+    "phone": "+49 5202 8759",
+    "address": {
+      "street": "Asemisser Allee",
+      "houseNumber": "5",
+      "zipCode": "33818",
+      "city": "Leopoldshöhe-Asemissen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "00:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1884693320,
+    "studioName": "Fitness First Ludwigsburg",
+    "url": "https://www.fitnessfirst.de/clubs/ludwigsburg",
+    "phone": "+49 7141 9169226",
+    "address": {
+      "street": "Marstallstraße",
+      "houseNumber": "1",
+      "zipCode": "71634",
+      "city": "Ludwigsburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1452085070,
+    "studioName": "Fitness First Magdeburg - Am Kroatenweg",
+    "url": "https://www.fitnessfirst.de/clubs/magdeburg-kroatenweg",
+    "phone": "+49 391 61080560",
+    "address": {
+      "street": "Kroatenweg",
+      "houseNumber": "70-72",
+      "zipCode": "39116",
+      "city": "Magdeburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447781820,
+    "studioName": "Fitness First Magdeburg - Sudenburg (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/magdeburg-sudenburg",
+    "phone": "0391 607 749 70",
+    "address": {
+      "street": "Fichtestraße",
+      "houseNumber": "29A",
+      "zipCode": "39112",
+      "city": "Magdeburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1270049830,
+    "studioName": "Fitness First Mainz",
+    "url": "https://www.fitnessfirst.de/clubs/mainz",
+    "phone": "0613 1971670",
+    "address": {
+      "street": "Bahnhofstraße",
+      "houseNumber": "2",
+      "zipCode": "55116",
+      "city": "Mainz",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1272859330,
+    "studioName": "Fitness First Mannheim - Im Quartier",
+    "url": "https://www.fitnessfirst.de/clubs/mannheim-im-quartier",
+    "phone": "06219767810",
+    "address": {
+      "street": "Q6/9",
+      "houseNumber": "",
+      "zipCode": "68161",
+      "city": "Mannheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:30",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1895682580,
+    "studioName": "Fitness First Mannheim Neckarau",
+    "url": "https://www.fitnessfirst.de/clubs/mannheim-neckarau",
+    "phone": "+49 621 86195979",
+    "address": {
+      "street": "Casterfeldstraße",
+      "houseNumber": "108-120",
+      "zipCode": "68199",
+      "city": "Mannheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1895675960,
+    "studioName": "Fitness First Mannheim Sandhofen",
+    "url": "https://www.fitnessfirst.de/clubs/mannheim-sandhofen",
+    "phone": "062112279000",
+    "address": {
+      "street": "Viernheimer Weg",
+      "houseNumber": "56-60",
+      "zipCode": "68307",
+      "city": "Mannheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1460836050,
+    "studioName": "Fitness First Marl",
+    "url": "https://www.fitnessfirst.de/clubs/marl",
+    "phone": "+49 2365 6966322",
+    "address": {
+      "street": "Herzlia-Allee",
+      "houseNumber": "3",
+      "zipCode": "45770",
+      "city": "Marl",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1584793770,
+    "studioName": "Fitness First Merzig - Saarwiesenring",
+    "url": "https://www.fitnessfirst.de/clubs/merzig-saarwiesenring",
+    "phone": "+49 6861 9122500",
+    "address": {
+      "street": "Saarwiesenring",
+      "houseNumber": "9",
+      "zipCode": "66663",
+      "city": "Merzig",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1535834440,
+    "studioName": "Fitness First Merzig City",
+    "url": "https://www.fitnessfirst.de/clubs/merzig-city",
+    "phone": "+49 6861 93899060",
+    "address": {
+      "street": "Alter Leinpfad",
+      "houseNumber": "5",
+      "zipCode": "66663",
+      "city": "Merzig",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "18:00"
+      }
+    ]
+  },
+  {
+    "id": 1411679210,
+    "studioName": "Fitness First Mönchengladbach - Eicken",
+    "url": "https://www.fitnessfirst.de/clubs/moenchengladbach-eicken",
+    "phone": "+49 2161 3039918",
+    "address": {
+      "street": "Süchtelner Straße",
+      "houseNumber": "30",
+      "zipCode": "41066",
+      "city": "Mönchengladbach",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2445886010,
+    "studioName": "Fitness First Mönchengladbach - Rheydt (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/moenchengladbach-rheydt",
+    "phone": "021661366388",
+    "address": {
+      "street": "Friedrich-Ebert-Straße",
+      "houseNumber": "219-229",
+      "zipCode": "41236",
+      "city": "Mönchengladbach",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 2141507670,
+    "studioName": "Fitness First Mörfelden-Walldorf",
+    "url": "https://www.fitnessfirst.de/clubs/moerfelden-walldorf",
+    "phone": "061512749035",
+    "address": {
+      "street": "Opelstraße",
+      "houseNumber": "20",
+      "zipCode": "64546",
+      "city": "Mörfelden-Walldorf",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1862102410,
+    "studioName": "Fitness First München - DER Bogen (ehem. ELBGYM)",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-bogen",
+    "phone": "089 248832463",
+    "address": {
+      "street": "Prinzregentenstraße",
+      "houseNumber": "159",
+      "zipCode": "81677",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1218422750,
+    "studioName": "Fitness First München - Hofstatt",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-hofstatt",
+    "phone": "089248832462",
+    "address": {
+      "street": "Sendlinger Straße",
+      "houseNumber": "10",
+      "zipCode": "80331",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 2405764950,
+    "studioName": "Fitness First München - Moosach (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-moosach",
+    "phone": "08992288096",
+    "address": {
+      "street": "",
+      "houseNumber": "",
+      "zipCode": "",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1363429860,
+    "studioName": "Fitness First München Haidhausen",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-haidhausen",
+    "phone": "089 41109800",
+    "address": {
+      "street": "Einsteinstr.",
+      "houseNumber": "130",
+      "zipCode": "81675",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1356285290,
+    "studioName": "Fitness First München Innenstadt: Am Marienplatz",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-innenstadt-am-marienplatz",
+    "phone": "0892388840",
+    "address": {
+      "street": "Kaufingerstraße",
+      "houseNumber": "17",
+      "zipCode": "80331",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1356095110,
+    "studioName": "Fitness First München Laim",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-laim",
+    "phone": "0895682680",
+    "address": {
+      "street": "Landsberger Str.",
+      "houseNumber": "374",
+      "zipCode": "80687",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 2237556420,
+    "studioName": "Fitness First München Sendling",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-sendling",
+    "phone": "069408016555",
+    "address": {
+      "street": "Lindwurmstraße",
+      "houseNumber": "114",
+      "zipCode": "80337",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1357396380,
+    "studioName": "Fitness First München: Schwabing",
+    "url": "https://www.fitnessfirst.de/clubs/muenchen-schwabing",
+    "phone": "089 33037460",
+    "address": {
+      "street": "Feilitzschstraße",
+      "houseNumber": "6",
+      "zipCode": "80802",
+      "city": "München",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      }
+    ]
+  },
+  {
+    "id": 1254349140,
+    "studioName": "Fitness First Münster - Aaseestadt",
+    "url": "https://www.fitnessfirst.de/clubs/muenster-aaseestadt",
+    "phone": "+49 251 289160",
+    "address": {
+      "street": "Weseler Straße",
+      "houseNumber": "71",
+      "zipCode": "48151",
+      "city": "Münster",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1257174880,
+    "studioName": "Fitness First Münster Germania Campus",
+    "url": "https://www.fitnessfirst.de/clubs/muenster-germania-campus",
+    "phone": "0251210180",
+    "address": {
+      "street": "Grevener Straße",
+      "houseNumber": "85",
+      "zipCode": "48159",
+      "city": "Münster",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 999999999,
+    "studioName": "Fitness First Nordhausen",
+    "url": "https://www.fitnessfirst.de/clubs/nordhausen",
+    "phone": "+49 3631 4731385",
+    "address": {
+      "street": "Kyffhäuser Straße",
+      "houseNumber": "15",
+      "zipCode": "99734",
+      "city": "Nordhausen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "18:00"
+      }
+    ]
+  },
+  {
+    "id": 2405771120,
+    "studioName": "Fitness First Nürnberg (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/nuernberg",
+    "phone": "0911 23694922",
+    "address": {
+      "street": "Färberstraße",
+      "houseNumber": "11",
+      "zipCode": "90402",
+      "city": "Nürnberg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 2405712540,
+    "studioName": "Fitness First Offenbach (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/offenbach",
+    "phone": "069 677 77 559",
+    "address": {
+      "street": "Berliner Straße",
+      "houseNumber": "206",
+      "zipCode": "63067",
+      "city": "Offenbach am Main",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1414223870,
+    "studioName": "Fitness First Paderborn - Innenstadt",
+    "url": "https://www.fitnessfirst.de/clubs/paderborn-innenstadt",
+    "phone": "+49 5251 2027979",
+    "address": {
+      "street": "Königsplatz",
+      "houseNumber": "15",
+      "zipCode": "33098",
+      "city": "Paderborn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2447830550,
+    "studioName": "Fitness First Paderborn - Kernstadt (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/paderborn-kernstadt",
+    "phone": "052511427063",
+    "address": {
+      "street": "Frankfurter Weg 30 a+b",
+      "houseNumber": "",
+      "zipCode": "33106",
+      "city": "Paderborn",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1550721450,
+    "studioName": "Fitness First Pforzheim",
+    "url": "https://www.fitnessfirst.de/clubs/pforzheim",
+    "phone": "+49 7231 154250",
+    "address": {
+      "street": "Karlsruher Straße",
+      "houseNumber": "49",
+      "zipCode": "75179",
+      "city": "Pforzheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1604389230,
+    "studioName": "Fitness First Pirmasens",
+    "url": "https://www.fitnessfirst.de/clubs/pirmasens",
+    "phone": "+49 6331 1455894",
+    "address": {
+      "street": "Waisenhausstraße",
+      "houseNumber": "20-22",
+      "zipCode": "66954",
+      "city": "Pirmasens",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1656812890,
+    "studioName": "Fitness First Plochingen",
+    "url": "https://www.fitnessfirst.de/clubs/plochingen",
+    "phone": "07153614840",
+    "address": {
+      "street": "Am Fischbrunnen",
+      "houseNumber": "2",
+      "zipCode": "73207",
+      "city": "Plochingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1252501690,
+    "studioName": "Fitness First Potsdam",
+    "url": "https://www.fitnessfirst.de/clubs/potsdam",
+    "phone": "+49 331 201490",
+    "address": {
+      "street": "Babelsberger Straße",
+      "houseNumber": "16",
+      "zipCode": "14473",
+      "city": "Potsdam",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2407187030,
+    "studioName": "Fitness First Raunheim - Mainspitze (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/raunheim-mainspitze",
+    "phone": "06142 7964640",
+    "address": {
+      "street": "Flörsheimer Straße",
+      "houseNumber": "3",
+      "zipCode": "65479",
+      "city": "Raunheim",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:59"
+      }
+    ]
+  },
+  {
+    "id": 1884720530,
+    "studioName": "Fitness First Ravensburg",
+    "url": "https://www.fitnessfirst.de/clubs/ravensburg",
+    "phone": "+49 751 65297070",
+    "address": {
+      "street": "Gebizostraße",
+      "houseNumber": "6",
+      "zipCode": "88214",
+      "city": "Ravensburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SATURDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SUNDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1355827140,
+    "studioName": "Fitness First Regensburg Pfaffenstein",
+    "url": "https://www.fitnessfirst.de/clubs/regensburg-pfaffenstein",
+    "phone": "0941830570",
+    "address": {
+      "street": "Am Europakanal",
+      "houseNumber": "32",
+      "zipCode": "93059",
+      "city": "Regensburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1370526730,
+    "studioName": "Fitness First Regensburg-Kirchmeierstraße",
+    "url": "https://www.fitnessfirst.de/clubs/regensburg-kirchmeierstrasse",
+    "phone": "+49 941 46539810",
+    "address": {
+      "street": "Kirchmeierstraße",
+      "houseNumber": "8A",
+      "zipCode": "93051",
+      "city": "Regensburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 2408772740,
+    "studioName": "Fitness First Rheinstetten",
+    "url": "https://www.fitnessfirst.de/clubs/rheinstetten",
+    "phone": "n/a",
+    "address": {
+      "street": "Rappenwörthstraße",
+      "houseNumber": "70",
+      "zipCode": "76287",
+      "city": "Rheinstetten",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "10:00",
+        "timeTo": "19:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "17:00"
+      }
+    ]
+  },
+  {
+    "id": 2447834550,
+    "studioName": "Fitness First Rostock - Innenstadt (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/rostock-innenstadt",
+    "phone": "0381 25239017",
+    "address": {
+      "street": "Kröpeliner Straße",
+      "houseNumber": "57",
+      "zipCode": "18055",
+      "city": "Rostock",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "24:00"
+      }
+    ]
+  },
+  {
+    "id": 1895679990,
+    "studioName": "Fitness First Rottenburg",
+    "url": "https://www.fitnessfirst.de/clubs/rottenburg",
+    "phone": "+49 7472 9873948",
+    "address": {
+      "street": "Wilhelm-Maybach-Straße",
+      "houseNumber": "21",
+      "zipCode": "72108",
+      "city": "Rottenburg am Neckar",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2406673080,
+    "studioName": "Fitness First Saarbrücken (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/saarbruecken",
+    "phone": "068199261500",
+    "address": {
+      "street": "Am Hauptbahnhof",
+      "houseNumber": "16-18",
+      "zipCode": "66111",
+      "city": "Saarbrücken",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1582661160,
+    "studioName": "Fitness First Saarlouis",
+    "url": "https://www.fitnessfirst.de/clubs/saarlouis",
+    "phone": "+49 6831 123456",
+    "address": {
+      "street": "Beispielstraße",
+      "houseNumber": "1",
+      "zipCode": "66740",
+      "city": "Saarlouis",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1895686800,
+    "studioName": "Fitness First Singen",
+    "url": "https://www.fitnessfirst.de/clubs/singen",
+    "phone": "+49 7731 7959047",
+    "address": {
+      "street": "Georg-Fischer-Straße",
+      "houseNumber": "29",
+      "zipCode": "78224",
+      "city": "Singen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2406731360,
+    "studioName": "Fitness First Stuttgart - Hauptstätter Straße (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/stuttgart-hauptstaetter",
+    "phone": "0711 67445593",
+    "address": {
+      "street": "Hauptstätter Straße",
+      "houseNumber": "107",
+      "zipCode": "70178",
+      "city": "Stuttgart",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1549495970,
+    "studioName": "Fitness First Stuttgart Rotebühl",
+    "url": "https://www.fitnessfirst.de/clubs/stuttgart-rotebuehl",
+    "phone": "+49 711 6994970",
+    "address": {
+      "street": "Rotebühlplatz",
+      "houseNumber": "21-25",
+      "zipCode": "70178",
+      "city": "Stuttgart",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:30"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1884693470,
+    "studioName": "Fitness First Stuttgart Zuffenhausen",
+    "url": "https://www.fitnessfirst.de/clubs/stuttgart-zuffenhausen",
+    "phone": "+49 711 81477969",
+    "address": {
+      "street": "Stammheimer Straße",
+      "houseNumber": "45",
+      "zipCode": "70435",
+      "city": "Stuttgart",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1550017790,
+    "studioName": "Fitness First Stuttgart: Bad Cannstatt",
+    "url": "https://www.fitnessfirst.de/clubs/stuttgart-bad-cannstatt",
+    "phone": "+49 711 5208860",
+    "address": {
+      "street": "Daimlerstraße",
+      "houseNumber": "67",
+      "zipCode": "70372",
+      "city": "Stuttgart",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "10:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1655884420,
+    "studioName": "Fitness First Süßen",
+    "url": "https://www.fitnessfirst.de/clubs/suessen",
+    "phone": "+49 7162 9707022",
+    "address": {
+      "street": "Fabrikstraße",
+      "houseNumber": "10",
+      "zipCode": "73079",
+      "city": "Süßen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1606506570,
+    "studioName": "Fitness First Trier Nord",
+    "url": "https://www.fitnessfirst.de/clubs/trier-nord",
+    "phone": "+49 651 99989060",
+    "address": {
+      "street": "Metternichstraße",
+      "houseNumber": "42",
+      "zipCode": "54292",
+      "city": "Trier",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1606282130,
+    "studioName": "Fitness First Trier West",
+    "url": "https://www.fitnessfirst.de/clubs/trier-west",
+    "phone": "+49 651 99362958",
+    "address": {
+      "street": "Diedenhofener Straße",
+      "houseNumber": "1",
+      "zipCode": "54294",
+      "city": "Trier",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1552211670,
+    "studioName": "Fitness First Trier Zentrum",
+    "url": "https://www.fitnessfirst.de/clubs/trier-zentrum",
+    "phone": "+49 651 436660",
+    "address": {
+      "street": "Ostallee",
+      "houseNumber": "3-5",
+      "zipCode": "54290",
+      "city": "Trier",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1679595440,
+    "studioName": "Fitness First Uhingen",
+    "url": "https://www.fitnessfirst.de/clubs/uhingen",
+    "phone": "+49 7161 5070030",
+    "address": {
+      "street": "Bahnhofstraße",
+      "houseNumber": "10",
+      "zipCode": "73066",
+      "city": "Uhingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1875082440,
+    "studioName": "Fitness First Waiblingen",
+    "url": "https://www.fitnessfirst.de/clubs/waiblingen",
+    "phone": "+49 7151 9768020",
+    "address": {
+      "street": "Stuttgarter Straße",
+      "houseNumber": "149",
+      "zipCode": "71332",
+      "city": "Waiblingen",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1884698170,
+    "studioName": "Fitness First Wangen",
+    "url": "https://www.fitnessfirst.de/clubs/wangen",
+    "phone": "+49 7522 9147618",
+    "address": {
+      "street": "Franz-Walchner-Straße",
+      "houseNumber": "6",
+      "zipCode": "88239",
+      "city": "Wangen im Allgäu",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1450945880,
+    "studioName": "Fitness First Wedel",
+    "url": "https://www.fitnessfirst.de/clubs/wedel",
+    "phone": "+49 4103 8066030",
+    "address": {
+      "street": "Bahnhofstraße",
+      "houseNumber": "35",
+      "zipCode": "22880",
+      "city": "Wedel",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2141514170,
+    "studioName": "Fitness First Gräfenhausen",
+    "url": "https://www.fitnessfirst.de/clubs/graefenhausen",
+    "phone": "06151 2749263",
+    "address": {
+      "street": "Hauptstraße",
+      "houseNumber": "29",
+      "zipCode": "64331",
+      "city": "Weiterstadt",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "08:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "18:00"
+      }
+    ]
+  },
+  {
+    "id": 1449991020,
+    "studioName": "Fitness First Wernigerode",
+    "url": "https://www.fitnessfirst.de/clubs/wernigerode",
+    "phone": "+49 3943 2091454",
+    "address": {
+      "street": "Dornbergsweg",
+      "houseNumber": "28",
+      "zipCode": "38855",
+      "city": "Wernigerode",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 2069188770,
+    "studioName": "Fitness First Wiesbaden - Im Künstlerviertel",
+    "url": "https://www.fitnessfirst.de/clubs/wiesbaden-kuenstlerviertel",
+    "phone": "+49 611 810304",
+    "address": {
+      "street": "Im Rad",
+      "houseNumber": "42",
+      "zipCode": "65197",
+      "city": "Wiesbaden",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1273799520,
+    "studioName": "Fitness First Wiesbaden Bahnhofsplatz",
+    "url": "https://www.fitnessfirst.de/clubs/wiesbaden-bahnhofsplatz",
+    "phone": "+49 611 341060",
+    "address": {
+      "street": "Bahnhofsplatz",
+      "houseNumber": "3",
+      "zipCode": "65189",
+      "city": "Wiesbaden",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "THURSDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "FRIDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "07:00",
+        "timeTo": "22:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "08:00",
+        "timeTo": "21:00"
+      }
+    ]
+  },
+  {
+    "id": 1883508530,
+    "studioName": "Fitness First Winnenden",
+    "url": "https://www.fitnessfirst.de/clubs/winnenden",
+    "phone": "+49 7151 9768021",
+    "address": {
+      "street": "Max-Eyth-Straße",
+      "houseNumber": "43/1",
+      "zipCode": "71364",
+      "city": "Winnenden",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1424999990,
+    "studioName": "Fitness First Wolfenbüttel City",
+    "url": "https://www.fitnessfirst.de/clubs/wolfenbuettel-city",
+    "phone": "+49 0",
+    "address": {
+      "street": "Bahnhofstraße",
+      "houseNumber": "9B",
+      "zipCode": "38300",
+      "city": "Wolfenbüttel",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  },
+  {
+    "id": 1679008750,
+    "studioName": "Fitness First Wäschenbeuren",
+    "url": "https://www.fitnessfirst.de/clubs/waeschenbeuren",
+    "phone": "+49 7161 5070030",
+    "address": {
+      "street": "Lorcher Straße",
+      "houseNumber": "2",
+      "zipCode": "73116",
+      "city": "Wäschenbeuren",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "07:00",
+        "timeTo": "23:00"
+      }
+    ]
+  },
+  {
+    "id": 2393935800,
+    "studioName": "Fitness First Würzburg - Grombühl (ehemals FIT/One)",
+    "url": "https://www.fitnessfirst.de/clubs/wuerzburg",
+    "phone": "093129996480",
+    "address": {
+      "street": "Nürnberger Straße",
+      "houseNumber": "3",
+      "zipCode": "97076",
+      "city": "Würzburg",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "06:00",
+        "timeTo": "00:00"
+      }
+    ]
+  },
+  {
+    "id": 1573712750,
+    "studioName": "Fitness First Zweibrücken",
+    "url": "https://www.fitnessfirst.de/clubs/zweibruecken",
+    "phone": "+49 6332 5676603",
+    "address": {
+      "street": "Etzelweg",
+      "houseNumber": "252",
+      "zipCode": "66482",
+      "city": "Zweibrücken",
+      "countryCode": "DE"
+    },
+    "openingHours": [
+      {
+        "dayOfWeekFrom": "MONDAY",
+        "dayOfWeekTo": "FRIDAY",
+        "timeFrom": "06:00",
+        "timeTo": "23:00"
+      },
+      {
+        "dayOfWeekFrom": "SATURDAY",
+        "dayOfWeekTo": "SUNDAY",
+        "timeFrom": "09:00",
+        "timeTo": "20:00"
+      }
+    ]
+  }
+]
