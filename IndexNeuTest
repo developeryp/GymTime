@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GymTime – Wann ist dein Gym am leersten?</title>
+<meta name="description" content="GymTime zeigt dir live die Auslastung deines Fitnessstudios. Finde den perfekten Zeitpunkt für dein Training.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #0a0a0c;
+    --bg-secondary: #111114;
+    --bg-card: #16161a;
+    --accent-green: #00e676;
+    --accent-green-dim: #00e67633;
+    --accent-yellow: #ffd600;
+    --accent-red: #ff3d57;
+    --text-primary: #f0f0f2;
+    --text-secondary: #8a8a9a;
+    --text-muted: #55556a;
+    --border: #222230;
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ===== GRAIN OVERLAY ===== */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.025;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px;
+  }
+
+  /* ===== NAVIGATION ===== */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 1.25rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(10,10,12,0.7);
+    border-bottom: 1px solid var(--border);
+    transition: all 0.3s ease;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    color: var(--text-primary);
+  }
+
+  .nav-logo-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--accent-green);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: var(--bg-primary);
+    letter-spacing: -0.5px;
+  }
+
+  .nav-logo-text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-links a:hover { color: var(--text-primary); }
+
+  .nav-cta {
+    background: var(--accent-green) !important;
+    color: var(--bg-primary) !important;
+    padding: 0.55rem 1.3rem;
+    border-radius: 50px;
+    font-weight: 600 !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+  }
+
+  .nav-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px var(--accent-green-dim);
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 8rem 2rem 4rem;
+    overflow: hidden;
+  }
+
+  .hero-glow {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    filter: blur(160px);
+    opacity: 0.15;
+    pointer-events: none;
+  }
+
+  .hero-glow-1 {
+    top: -200px;
+    right: -100px;
+    background: var(--accent-green);
+  }
+
+  .hero-glow-2 {
+    bottom: -300px;
+    left: -200px;
+    background: var(--accent-green);
+    opacity: 0.08;
+  }
+
+  .hero-content {
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 1rem 0.4rem 0.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .hero-badge-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent-green);
+    border-radius: 50%;
+    animation: pulse-dot 2s ease infinite;
+    margin-left: 0.3rem;
+  }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 var(--accent-green-dim); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 8px transparent; }
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.8s ease 0.1s both;
+  }
+
+  .hero h1 .accent {
+    background: linear-gradient(135deg, var(--accent-green), #69f0ae);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-sub {
+    font-size: clamp(1.05rem, 2.5vw, 1.3rem);
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto 2.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+    animation: fadeUp 0.8s ease 0.2s both;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    animation: fadeUp 0.8s ease 0.3s both;
+  }
+
+  .store-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1.6rem;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+    border: 1.5px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text-primary);
+  }
+
+  .store-btn:hover {
+    border-color: var(--accent-green);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0,230,118,0.1);
+  }
+
+  .store-btn svg { flex-shrink: 0; }
+
+  .store-btn-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+  }
+
+  .store-btn-text small {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+
+  .store-btn-text span {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  /* ===== PHONE MOCKUP ===== */
+  .hero-phone-wrapper {
+    margin-top: 4rem;
+    animation: fadeUp 0.8s ease 0.4s both;
+    perspective: 1000px;
+  }
+
+  .hero-phone {
+    width: 280px;
+    height: 570px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    border-radius: 40px;
+    border: 3px solid #2a2a35;
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+      0 30px 80px rgba(0,0,0,0.5),
+      0 0 0 1px rgba(255,255,255,0.03) inset,
+      0 0 120px rgba(0,230,118,0.05);
+    transform: rotateX(2deg);
+    transition: transform 0.4s ease;
+  }
+
+  .hero-phone:hover {
+    transform: rotateX(0deg) translateY(-5px);
+  }
+
+  .phone-notch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 30px;
+    background: #1a1a20;
+    border-radius: 0 0 20px 20px;
+    z-index: 3;
+  }
+
+  .phone-screen {
+    padding: 50px 20px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: linear-gradient(180deg, #0d0d10, #111116);
+  }
+
+  .phone-header {
+    text-align: center;
+  }
+
+  .phone-header h3 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+  }
+
+  .phone-header p {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+  }
+
+  .phone-status {
+    text-align: center;
+    padding: 16px 12px;
+    background: rgba(0,230,118,0.06);
+    border: 1px solid rgba(0,230,118,0.15);
+    border-radius: 16px;
+  }
+
+  .phone-status-label {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+
+  .phone-status-value {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--accent-green);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .phone-status-text {
+    font-size: 0.7rem;
+    color: var(--accent-green);
+    margin-top: 4px;
+    font-weight: 600;
+  }
+
+  .phone-bar-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 80px;
+    padding: 0 4px;
+  }
+
+  .phone-bar {
+    flex: 1;
+    border-radius: 4px 4px 0 0;
+    min-height: 8px;
+    transition: height 0.6s ease;
+  }
+
+  .phone-heatmap {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+  }
+
+  .heatmap-cell {
+    aspect-ratio: 1;
+    border-radius: 4px;
+    min-height: 14px;
+  }
+
+  .phone-nav-bar {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 4px;
+    border-top: 1px solid var(--border);
+  }
+
+  .phone-nav-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-muted);
+  }
+
+  .phone-nav-dot.active { background: var(--accent-green); }
+
+  /* ===== STATS BAR ===== */
+  .stats-bar {
+    padding: 3rem 2rem;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-secondary);
+  }
+
+  .stats-bar-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .stat-item h3 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    background: linear-gradient(135deg, var(--accent-green), #b9f6ca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .stat-item p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.3rem;
+    font-weight: 500;
+  }
+
+  /* ===== FEATURES ===== */
+  .features {
+    padding: 8rem 2rem;
+    position: relative;
+  }
+
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--accent-green);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .section-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+
+  .section-sub {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+
+  .features-header {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+  }
+
+  .features-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-green), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .feature-card:hover::before { opacity: 1; }
+
+  .feature-card:hover {
+    border-color: #2a2a3a;
+    transform: translateY(-4px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+  }
+
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .fi-green { background: rgba(0,230,118,0.1); color: var(--accent-green); }
+  .fi-yellow { background: rgba(255,214,0,0.1); color: var(--accent-yellow); }
+  .fi-red { background: rgba(255,61,87,0.1); color: var(--accent-red); }
+  .fi-blue { background: rgba(68,138,255,0.1); color: #448aff; }
+  .fi-purple { background: rgba(179,136,255,0.1); color: #b388ff; }
+  .fi-teal { background: rgba(0,229,214,0.1); color: #00e5d6; }
+
+  .feature-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.02em;
+  }
+
+  .feature-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  /* ===== HOW IT WORKS ===== */
+  .how-it-works {
+    padding: 6rem 2rem 8rem;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+  }
+
+  .how-header {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    text-align: center;
+  }
+
+  .how-header .section-label, .how-header .section-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .steps {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    position: relative;
+    padding-bottom: 3rem;
+  }
+
+  .step:last-child { padding-bottom: 0; }
+
+  .step-number-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .step-number {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .step-line {
+    width: 2px;
+    flex: 1;
+    background: linear-gradient(180deg, var(--accent-green), transparent);
+    margin-top: 0.5rem;
+    min-height: 40px;
+  }
+
+  .step:last-child .step-line { display: none; }
+
+  .step-content { padding-top: 0.6rem; }
+
+  .step-content h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.02em;
+  }
+
+  .step-content p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* ===== HEATMAP SHOWCASE ===== */
+  .heatmap-section {
+    padding: 8rem 2rem;
+    position: relative;
+  }
+
+  .heatmap-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .heatmap-header {
+    margin-bottom: 3rem;
+  }
+
+  .heatmap-demo {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  .heatmap-labels {
+    display: flex;
+    gap: 0;
+    margin-bottom: 0.6rem;
+    padding-left: 60px;
+  }
+
+  .heatmap-labels span {
+    flex: 1;
+    text-align: center;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+  }
+
+  .heatmap-row {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 4px;
+  }
+
+  .heatmap-row-label {
+    width: 60px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  .heatmap-cells {
+    display: flex;
+    gap: 4px;
+    flex: 1;
+  }
+
+  .hm-cell {
+    flex: 1;
+    height: 28px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .hm-cell:hover {
+    transform: scale(1.15);
+    z-index: 2;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  }
+
+  .hm-level-0 { background: #0d2818; }
+  .hm-level-1 { background: #0f4a23; }
+  .hm-level-2 { background: #1b7a3a; }
+  .hm-level-3 { background: #4caf50; }
+  .hm-level-4 { background: #8bc34a; }
+  .hm-level-5 { background: #fdd835; }
+  .hm-level-6 { background: #ff9800; }
+  .hm-level-7 { background: #f44336; }
+
+  .heatmap-legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .legend-cells {
+    display: flex;
+    gap: 3px;
+  }
+
+  .legend-cell {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+  }
+
+  /* ===== CTA SECTION ===== */
+  .cta-section {
+    padding: 8rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    filter: blur(200px);
+    opacity: 0.06;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cta-content {
+    position: relative;
+    z-index: 2;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .cta-content h2 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .cta-content p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+
+  .cta-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1rem 2rem;
+    background: var(--accent-green);
+    color: var(--bg-primary);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 14px;
+    text-decoration: none;
+    transition: all 0.25s;
+    letter-spacing: -0.01em;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(0,230,118,0.25);
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1rem 2rem;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 14px;
+    text-decoration: none;
+    border: 1.5px solid var(--border);
+    transition: all 0.25s;
+    letter-spacing: -0.01em;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--text-muted);
+    transform: translateY(-2px);
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    padding: 3rem 2rem;
+    border-top: 1px solid var(--border);
+    background: var(--bg-secondary);
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+
+  .footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: var(--text-secondary); }
+
+  .footer-impressum {
+    max-width: 1200px;
+    margin: 1.5rem auto 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .impressum-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .footer-impressum p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .footer-impressum a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-impressum a:hover { color: var(--text-secondary); }
+
+  /* ===== ANIMATIONS ===== */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.2rem; }
+
+    .nav-links { display: none; }
+
+    .hero { padding: 7rem 1.2rem 3rem; }
+
+    .hero-phone { width: 240px; height: 490px; }
+
+    .stats-bar-inner { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+
+    .stat-item h3 { font-size: 1.6rem; }
+    .stat-item p { font-size: 0.72rem; }
+
+    .features { padding: 5rem 1.2rem; }
+    .features-grid { grid-template-columns: 1fr; }
+
+    .how-it-works { padding: 4rem 1.2rem 6rem; }
+
+    .heatmap-section { padding: 5rem 1.2rem; }
+    .heatmap-demo { padding: 1.2rem; }
+    .hm-cell { height: 20px; }
+    .heatmap-labels { padding-left: 40px; }
+    .heatmap-row-label { width: 40px; font-size: 0.65rem; }
+
+    .cta-section { padding: 5rem 1.2rem; }
+
+    .store-btn { padding: 0.75rem 1.2rem; }
+
+    .footer-inner { flex-direction: column; text-align: center; }
+  }
+
+  /* ===== MOBILE MENU ===== */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .menu-toggle { display: block; }
+  }
+
+  /* ===== SCROLLBAR ===== */
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg-primary); }
+  ::-webkit-scrollbar-thumb { background: #2a2a35; border-radius: 10px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3a3a4a; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon">G</div>
+    <span class="nav-logo-text">GymTime</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#features">Features</a></li>
+    <li><a href="#how">So funktioniert's</a></li>
+    <li><a href="#heatmap">Heatmap</a></li>
+    <li><a href="#download" class="nav-cta">Download</a></li>
+  </ul>
+  <button class="menu-toggle" onclick="document.querySelector('.nav-links').style.display = this.dataset.open === '1' ? 'none' : 'flex'; this.dataset.open = this.dataset.open === '1' ? '0' : '1';" data-open="0">
+    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      Live Auslastung – jetzt verfügbar
+    </div>
+    <h1>Trainiere smart.<br><span class="accent">Nie wieder warten.</span></h1>
+    <p class="hero-sub">GymTime zeigt dir in Echtzeit, wie voll dein Fitnessstudio ist. Finde den perfekten Moment für dein Workout – ganz ohne Anmeldung.</p>
+    <div class="hero-actions">
+      <a href="https://apps.apple.com/us/app/gymtime-live-auslastung/id6758906348" class="store-btn" target="_blank">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        <div class="store-btn-text">
+          <small>Laden im</small>
+          <span>App Store</span>
+        </div>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.gymauslastung" class="store-btn" target="_blank">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3.61 1.814L13.793 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734c0-.384.22-.72.61-.92z" fill="#4285F4"/><path d="M17.544 8.248L5.218.573C4.753.306 4.259.193 3.81.275l9.985 9.985 3.75-2.012z" fill="#EA4335"/><path d="M3.81 23.725c.45.082.943-.03 1.408-.298l12.326-7.675-3.75-2.012L3.81 23.725z" fill="#34A853"/><path d="M20.847 10.373l-3.303-1.885L13.793 12l3.75 3.512 3.304-1.885c.93-.515.93-1.74 0-3.254z" fill="#FBBC05"/></svg>
+        <div class="store-btn-text">
+          <small>Jetzt bei</small>
+          <span>Google Play</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- PHONE MOCKUP -->
+    <div class="hero-phone-wrapper">
+      <div class="hero-phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-header">
+            <h3>Dein Fitnessstudio</h3>
+            <p>Live · Gerade aktualisiert</p>
+          </div>
+          <div class="phone-status">
+            <div class="phone-status-label">Aktuelle Auslastung</div>
+            <div class="phone-status-value">34%</div>
+            <div class="phone-status-text">● Wenig los</div>
+          </div>
+          <div class="phone-bar-chart" id="barChart"></div>
+          <div style="font-size:0.6rem; color:var(--text-muted); font-family:'Space Mono',monospace; display:flex; justify-content:space-between; padding:0 4px;"><span>6h</span><span>12h</span><span>18h</span><span>22h</span></div>
+          <div style="font-size:0.65rem; color:var(--text-secondary); font-weight:600; margin-top:6px;">Wochen-Heatmap</div>
+          <div class="phone-heatmap" id="phoneHeatmap"></div>
+          <div class="phone-nav-bar">
+            <div class="phone-nav-dot active"></div>
+            <div class="phone-nav-dot"></div>
+            <div class="phone-nav-dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="stats-bar">
+  <div class="stats-bar-inner">
+    <div class="stat-item fade-in">
+      <h3>600+</h3>
+      <p>Fitnessstudios</p>
+    </div>
+    <div class="stat-item fade-in">
+      <h3>0€</h3>
+      <p>Komplett kostenlos</p>
+    </div>
+    <div class="stat-item fade-in">
+      <h3>0s</h3>
+      <p>Keine Anmeldung</p>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="features-header fade-in">
+    <span class="section-label">Features</span>
+    <h2 class="section-title">Alles was du brauchst.<br>Nichts, was du nicht brauchst.</h2>
+    <p class="section-sub">Minimalistisch, schnell und auf den Punkt – GymTime liefert dir die Infos, die zählen.</p>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card fade-in">
+      <div class="feature-icon fi-green">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <h3>Live-Auslastung</h3>
+      <p>Sieh in Echtzeit, wie voll dein Studio ist. Farbige Indikatoren zeigen dir sofort: grün, gelb oder rot.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon fi-blue">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+      </div>
+      <h3>Smarte Prognosen</h3>
+      <p>Die App lernt aus anonymen Community-Daten und erstellt automatisch Prognosen für jeden Wochentag.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon fi-yellow">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
+      </div>
+      <h3>Wochen-Heatmap</h3>
+      <p>Die übersichtliche Heatmap zeigt die gesamte Woche. Auf einen Blick erkennst du die ruhigsten Zeiten.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon fi-purple">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 4-10"/></svg>
+      </div>
+      <h3>Tagesdetails</h3>
+      <p>Wähle einen Wochentag und sieh die durchschnittliche Auslastung für jede Stunde – perfekt zum Planen.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon fi-red">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </div>
+      <h3>Auto-Refresh</h3>
+      <p>Die Auslastung wird automatisch in deinem Wunsch-Intervall aktualisiert. Immer aktuell, immer bereit.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon fi-teal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+      </div>
+      <h3>Offline-Prognosen</h3>
+      <p>Einmal gesammelte Daten stehen auch ohne Internet zur Verfügung. Trainiere smart, auch unterwegs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works" id="how">
+  <div class="how-header fade-in">
+    <span class="section-label">So funktioniert's</span>
+    <h2 class="section-title">In 3 Schritten zum<br>perfekten Workout</h2>
+    <p class="section-sub">Kein Login. Keine Registrierung. Einfach loslegen.</p>
+  </div>
+  <div class="steps">
+    <div class="step fade-in">
+      <div class="step-number-col">
+        <div class="step-number">01</div>
+        <div class="step-line"></div>
+      </div>
+      <div class="step-content">
+        <h3>Studio auswählen</h3>
+        <p>Wähle aus über 600 Fitnessstudios dein Gym aus – einfach suchen und antippen.</p>
+      </div>
+    </div>
+    <div class="step fade-in">
+      <div class="step-number-col">
+        <div class="step-number">02</div>
+        <div class="step-line"></div>
+      </div>
+      <div class="step-content">
+        <h3>Auslastung checken</h3>
+        <p>Sieh sofort, wie voll es gerade ist. Die Live-Anzeige und Prognosen helfen dir bei der Planung.</p>
+      </div>
+    </div>
+    <div class="step fade-in">
+      <div class="step-number-col">
+        <div class="step-number">03</div>
+      </div>
+      <div class="step-content">
+        <h3>Zum perfekten Zeitpunkt los</h3>
+        <p>Nutze die Heatmap, finde den ruhigsten Slot und trainiere ohne Wartezeiten an den Geräten.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HEATMAP SHOWCASE -->
+<section class="heatmap-section" id="heatmap">
+  <div class="heatmap-container">
+    <div class="heatmap-header fade-in">
+      <span class="section-label">Heatmap</span>
+      <h2 class="section-title">Deine Woche auf<br>einen Blick</h2>
+      <p class="section-sub">Erkenne Muster, finde die ruhigsten Zeiten und plane dein Training perfekt.</p>
+    </div>
+    <div class="heatmap-demo fade-in" id="heatmapDemo">
+      <!-- Generated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="download">
+  <div class="cta-glow"></div>
+  <div class="cta-content fade-in">
+    <span class="section-label">Kostenlos downloaden</span>
+    <h2>Bereit, smart zu<br><span class="accent">trainieren?</span></h2>
+    <p>Lade GymTime jetzt herunter und finde den perfekten Zeitpunkt für dein nächstes Workout.</p>
+    <div class="cta-buttons">
+      <a href="https://apps.apple.com/us/app/gymtime-live-auslastung/id6758906348" class="btn-primary" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.gymauslastung" class="btn-secondary" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3.61 1.814L13.793 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734c0-.384.22-.72.61-.92z" fill="#4285F4"/><path d="M17.544 8.248L5.218.573C4.753.306 4.259.193 3.81.275l9.985 9.985 3.75-2.012z" fill="#EA4335"/><path d="M3.81 23.725c.45.082.943-.03 1.408-.298l12.326-7.675-3.75-2.012L3.81 23.725z" fill="#34A853"/><path d="M20.847 10.373l-3.303-1.885L13.793 12l3.75 3.512 3.304-1.885c.93-.515.93-1.74 0-3.254z" fill="#FBBC05"/></svg>
+        Google Play
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span>© 2026 GymTime by Yp!</span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="https://developeryp.github.io/GymTime/Datenschutzerklaerung.html" target="_blank">Datenschutzerklärung</a></li>
+      <li><a href="https://developeryp.github.io/GymTime/Nutzungsbedingungen.html" target="_blank">Nutzungsbedingungen</a></li>
+      <li><a href="mailto:developeryp1@gmail.com">Kontakt</a></li>
+    </ul>
+  </div>
+  <div class="footer-impressum">
+    <p class="impressum-title">Impressum</p>
+    <p>Yacouba Pfälzner · <a href="mailto:developeryp1@gmail.com">developeryp1@gmail.com</a></p>
+    <p>Die vollständige Postadresse wird auf Anfrage per E-Mail mitgeteilt.</p>
+  </div>
+</footer>
+
+<script>
+// ===== BAR CHART IN PHONE =====
+const barData = [15,20,25,40,60,85,95,80,65,50,55,70,85,70,45,30];
+const barChart = document.getElementById('barChart');
+barData.forEach((v, i) => {
+  const bar = document.createElement('div');
+  bar.className = 'phone-bar';
+  bar.style.height = v + '%';
+  let color;
+  if (v < 40) color = 'var(--accent-green)';
+  else if (v < 70) color = 'var(--accent-yellow)';
+  else color = 'var(--accent-red)';
+  bar.style.background = color;
+  bar.style.opacity = '0.85';
+  bar.style.animationDelay = (i * 0.05) + 's';
+  barChart.appendChild(bar);
+});
+
+// ===== PHONE HEATMAP =====
+const phoneHeatmap = document.getElementById('phoneHeatmap');
+const phColors = ['#0d2818','#0f4a23','#1b7a3a','#4caf50','#8bc34a','#fdd835','#ff9800','#f44336'];
+for(let i = 0; i < 49; i++){
+  const cell = document.createElement('div');
+  cell.className = 'heatmap-cell';
+  const lvl = Math.floor(Math.random() * 8);
+  cell.style.background = phColors[lvl];
+  cell.style.borderRadius = '3px';
+  phoneHeatmap.appendChild(cell);
+}
+
+// ===== MAIN HEATMAP =====
+const days = ['Mo','Di','Mi','Do','Fr','Sa','So'];
+const hours = ['6h','8h','10h','12h','14h','16h','18h','20h','22h'];
+const heatmapData = [
+  [0,1,2,4,3,2,5,6,3],
+  [0,1,3,5,4,3,6,7,4],
+  [0,1,2,3,3,2,5,6,3],
+  [0,2,3,5,4,3,7,7,5],
+  [1,2,4,6,5,4,7,6,4],
+  [1,3,5,6,4,3,4,3,1],
+  [0,1,3,4,3,2,2,1,0],
+];
+
+const demo = document.getElementById('heatmapDemo');
+let labelsRow = '<div class="heatmap-labels">';
+hours.forEach(h => labelsRow += `<span>${h}</span>`);
+labelsRow += '</div>';
+demo.innerHTML = labelsRow;
+
+days.forEach((day, di) => {
+  let row = `<div class="heatmap-row"><span class="heatmap-row-label">${day}</span><div class="heatmap-cells">`;
+  heatmapData[di].forEach((lvl) => {
+    row += `<div class="hm-cell hm-level-${lvl}"></div>`;
+  });
+  row += '</div></div>';
+  demo.innerHTML += row;
+});
+
+let legend = '<div class="heatmap-legend"><span>Leer</span><div class="legend-cells">';
+for(let i = 0; i <= 7; i++) legend += `<div class="legend-cell hm-level-${i}"></div>`;
+legend += '</div><span>Voll</span></div>';
+demo.innerHTML += legend;
+
+// ===== SCROLL ANIMATIONS =====
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
