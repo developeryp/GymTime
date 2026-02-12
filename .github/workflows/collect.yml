@@ -2,11 +2,7 @@ name: Gym Data Collector
 
 on:
   schedule:
-    # 22:30 UTC = 23:30 MEZ (Winterzeit)
-    # 21:30 UTC = 23:30 MESZ (Sommerzeit)
-    # Beide Zeiten laufen lassen – das Script handhabt Duplikate
-    - cron: '30 21 * * *'
-    - cron: '30 22 * * *'
+   - cron: '5 22 * * *'  # 22:05 UTC = 23:05 MEZ
   workflow_dispatch: # Manuell starten Button auf GitHub
 
 jobs:
