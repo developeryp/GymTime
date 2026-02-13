@@ -33,87 +33,109 @@
   <p><strong>Stand / Last updated: Februar / February 2026</strong></p>
 
   <p>
-    Diese App wird von Yacouba Pfälzner bereitgestellt.<br>
-    Die vollständige Postadresse des Verantwortlichen wird auf Anfrage per E-Mail mitgeteilt.<br>
-    This app is provided by Yacouba Pfälzner.<br>
+    Diese App wird von Yacouba Pf&auml;lzner bereitgestellt.<br>
+    Die vollst&auml;ndige Postadresse des Verantwortlichen wird auf Anfrage per E-Mail mitgeteilt.<br>
+    This app is provided by Yacouba Pf&auml;lzner.<br>
     The full postal address will be provided upon request by email.
   </p>
 
   <p>
-    Die App „GymTime: Live Auslastung" zeigt die aktuelle Auslastung von Fitnessstudios in Echtzeit an
-    und erstellt auf Basis gesammelter Daten Prognosen für zukünftige Auslastungen. Die Nutzung der App
+    Die App &bdquo;GymTime: Live Auslastung&ldquo; zeigt die aktuelle Auslastung von Fitnessstudios in Echtzeit an
+    und erstellt auf Basis gesammelter Daten Prognosen f&uuml;r zuk&uuml;nftige Auslastungen. Die Nutzung der App
     ist kostenfrei und erfordert eine Internetverbindung zum Abrufen der Auslastungsdaten.<br>
-    The app "GymTime: Live Auslastung" displays the current occupancy of fitness studios in real time
+    The app &ldquo;GymTime: Live Auslastung&rdquo; displays the current occupancy of fitness studios in real time
     and generates forecasts based on collected data. The app is free to use and requires an internet
     connection to retrieve occupancy data.
   </p>
 
   <p>
-    Die angezeigten Auslastungsdaten werden über eine externe Schnittstelle bereitgestellt. Es wird
-    keine Gewähr für Richtigkeit, Aktualität oder Vollständigkeit der Daten übernommen. Die tatsächliche
+    Die angezeigten Auslastungsdaten werden &uuml;ber externe Schnittstellen bereitgestellt. Es wird
+    keine Gew&auml;hr f&uuml;r Richtigkeit, Aktualit&auml;t oder Vollst&auml;ndigkeit der Daten &uuml;bernommen. Die tats&auml;chliche
     Auslastung vor Ort kann von den angezeigten Werten abweichen.<br>
-    The displayed occupancy data is provided via an external interface. No guarantee is given for the
+    The displayed occupancy data is provided via external interfaces. No guarantee is given for the
     accuracy, timeliness or completeness of the data. Actual occupancy on site may differ from the
     displayed values.
   </p>
 
   <p>
-    Es handelt sich ausschließlich um ein Informationsangebot. Die App stellt keine verbindliche Auskunft dar.<br>
+    Es handelt sich ausschlie&szlig;lich um ein Informationsangebot. Die App stellt keine verbindliche Auskunft dar.<br>
     This app is for informational purposes only. It does not provide binding information.
   </p>
 
   <p>
-    Nur eine rechtmäßige Nutzung der App ist gestattet. Jegliche missbräuchliche Nutzung, insbesondere
-    automatisiertes Auslesen, Manipulation der Daten oder Umgehung technischer Schutzmaßnahmen, ist untersagt.<br>
+    Nur eine rechtm&auml;&szlig;ige Nutzung der App ist gestattet. Jegliche missbr&auml;uchliche Nutzung, insbesondere
+    automatisiertes Auslesen, Manipulation der Daten oder Umgehung technischer Schutzma&szlig;nahmen, ist untersagt.<br>
     Only lawful use of the app is permitted. Any misuse, in particular automated scraping, manipulation of data
     or circumvention of technical protection measures, is prohibited.
   </p>
 
-  <h2>Datenquelle / Data Source</h2>
+  <h2>Datenquellen / Data Sources</h2>
   <p>
-    Die Auslastungsdaten werden über die Magicline API, die FitX API und die Fitness First API abgerufen. Die Daten werden vom jeweiligen
-    Studiobetreiber bereitgestellt und können ohne Vorankündigung geändert oder eingestellt werden.<br>
-    Occupancy data is retrieved via the Magicline API, the FitX API and the Fitness First API. The data is provided by the respective studio
-    operator and may be changed or discontinued without notice.
+    Die Auslastungsdaten werden &uuml;ber folgende Schnittstellen abgerufen:<br>
+    Occupancy data is retrieved via the following interfaces:
+  </p>
+  <ul>
+    <li><strong>Magicline API</strong> &ndash; RSG Group (McFit, John Reed, Gold&rsquo;s Gym u.&nbsp;a.) / RSG Group (McFit, John Reed, Gold&rsquo;s Gym etc.)</li>
+    <li><strong>FitX NOX API</strong> &ndash; FitX Studios</li>
+    <li><strong>clever fit NOX API</strong> &ndash; clever fit Studios</li>
+    <li><strong>Fitness First Checkins API</strong> &ndash; Fitness First Studios</li>
+  </ul>
+  <p>
+    Die Daten werden vom jeweiligen Studiobetreiber bereitgestellt und k&ouml;nnen ohne Vorank&uuml;ndigung ge&auml;ndert oder eingestellt werden.
+    Diese App ist kein offizielles Produkt der genannten Fitness-Ketten.<br>
+    The data is provided by the respective studio operator and may be changed or discontinued without notice.
+    This app is not an official product of the mentioned fitness chains.
   </p>
 
   <h2>Prognosen / Forecasts</h2>
   <p>
-    Die App speichert Auslastungsdaten lokal auf dem Gerät des Nutzers, um daraus Durchschnittswerte und
-    Prognosen zu berechnen. Diese Prognosen basieren auf historischen Daten und stellen keine Garantie
-    für die tatsächliche zukünftige Auslastung dar.<br>
-    The app stores occupancy data locally on the user's device to calculate averages and forecasts.
+    Die App sammelt anonymisierte Auslastungsdaten aller Nutzer und speichert diese auf einem externen Server (Supabase),
+    um daraus gemeinschaftliche Durchschnittswerte und Prognosen zu berechnen. Dabei wird ein zuf&auml;llig generierter,
+    anonymer Ger&auml;te-Hash zur Deduplizierung verwendet &ndash; es werden keine personenbezogenen Daten &uuml;bermittelt.
+    Diese Prognosen basieren auf historischen Daten und stellen keine Garantie f&uuml;r die tats&auml;chliche zuk&uuml;nftige Auslastung dar.<br>
+    The app collects anonymized occupancy data from all users and stores it on an external server (Supabase)
+    to calculate community-based averages and forecasts. A randomly generated, anonymous device hash is used
+    for deduplication &ndash; no personal data is transmitted.
     These forecasts are based on historical data and do not guarantee actual future occupancy levels.
   </p>
 
   <h2>Haftung / Liability</h2>
   <p>
-    Die Nutzung der App erfolgt auf eigene Gefahr. Es wird keine Haftung für unmittelbare oder mittelbare
-    Schäden übernommen, die aus der Nutzung oder Nichtnutzbarkeit der App oder der angezeigten Informationen
-    entstehen, außer in Fällen von Vorsatz oder grober Fahrlässigkeit. Unberührt bleiben zwingende
-    gesetzliche Haftungsregelungen, insbesondere bei Verletzung von Leben, Körper oder Gesundheit.<br>
+    Die Nutzung der App erfolgt auf eigene Gefahr. Es wird keine Haftung f&uuml;r unmittelbare oder mittelbare
+    Sch&auml;den &uuml;bernommen, die aus der Nutzung oder Nichtnutzbarkeit der App oder der angezeigten Informationen
+    entstehen, au&szlig;er in F&auml;llen von Vorsatz oder grober Fahrl&auml;ssigkeit. Unber&uuml;hrt bleiben zwingende
+    gesetzliche Haftungsregelungen, insbesondere bei Verletzung von Leben, K&ouml;rper oder Gesundheit.<br>
     Use of the app is at your own risk. No liability is accepted for direct or indirect damages arising from
     the use or inability to use the app or the information provided, except in cases of intent or gross negligence.
     Mandatory statutory liability provisions, in particular for injury to life, body or health, remain unaffected.
   </p>
 
-  <h2>Ergänzende Regelung / Supplemental Provision</h2>
+  <h2>Erg&auml;nzende Regelung / Supplemental Provision</h2>
   <p>
-    Sofern und soweit in diesen Nutzungsbedingungen nicht ausdrücklich abweichend geregelt, gelten ergänzend die
-    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">
-      Apple-Standard-Endnutzerlizenzbedingungen (EULA)
-    </a>.<br>
-    Unless expressly stated otherwise in these terms of use, the
-    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">
-      Apple Standard End User License Agreement (EULA)
-    </a> shall apply supplementally.
+    Sofern und soweit in diesen Nutzungsbedingungen nicht ausdr&uuml;cklich abweichend geregelt, gelten erg&auml;nzend
+    die Nutzungsbedingungen der jeweiligen Plattform:<br>
+    Unless expressly stated otherwise in these terms of use, the terms of the respective platform shall apply supplementally:
   </p>
+  <ul>
+    <li>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">
+        Apple &ndash; Standard-Endnutzerlizenzbedingungen (EULA)
+      </a>
+    </li>
+    <li>
+      <a href="https://play.google.com/intl/de/about/play-terms/" target="_blank" rel="noopener noreferrer">
+        Google Play &ndash; Nutzungsbedingungen
+      </a>
+    </li>
+  </ul>
 
   <h2>Support</h2>
   <p>
-    Bei Fragen oder Problemen können Sie sich per E-Mail an den Entwickler wenden:<br>
+    Bei Fragen oder Problemen k&ouml;nnen Sie sich per E-Mail an den Entwickler wenden:<br>
     For questions or issues, you can contact the developer via email:<br>
-    <a href="/cdn-cgi/l/email-protection#c6a2a3b0a3aaa9b6a3b4bfb6f786a1aba7afaae8a5a9ab"><span class="__cf_email__" data-cfemail="c5a1a0b3a0a9aab5a0b7bcb5f485a2a8a4aca9eba6aaa8">[email&#160;protected]</span></a>
+    <a href="mailto:gymtime.app@icloud.com">gymtime.app@icloud.com</a>
   </p>
 
-  <p><a href="index.html">Zum I
+  <p><a href="index.html">&larr; Zum Impressum / Back to Imprint</a></p>
+</body>
+</html>
