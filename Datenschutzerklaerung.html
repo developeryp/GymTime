@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Datenschutzerklärung / Privacy Policy – GymTime: Live Auslastung</title>
+  <title>Datenschutzerkl&auml;rung / Privacy Policy &ndash; GymTime: Live Auslastung</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
   <style>
@@ -27,33 +27,33 @@
   </style>
 </head>
 <body>
-  <h1>Datenschutzerklärung / Privacy Policy</h1>
+  <h1>Datenschutzerkl&auml;rung / Privacy Policy</h1>
 
   <p><strong>Stand / Last updated: Februar / February 2026</strong></p>
 
   <p>
-    Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen. Diese App verarbeitet Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TTDSG). Nachfolgend informieren wir Sie über Art, Umfang und Zweck der Datenverarbeitung.<br>
+    Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen. Diese App verarbeitet Ihre Daten ausschlie&szlig;lich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TTDSG). Nachfolgend informieren wir Sie &uuml;ber Art, Umfang und Zweck der Datenverarbeitung.<br>
     Protecting your personal data is important to us. This app processes your data exclusively based on legal regulations (GDPR, TTDSG). Below we inform you about the type, scope and purpose of data processing.
   </p>
 
   <h2>Verantwortlicher / Controller</h2>
   <p>
-    Yacouba Pfälzner<br>
-    Die vollständige Postadresse des Verantwortlichen wird auf Anfrage per E-Mail mitgeteilt.<br>
+    Yacouba Pf&auml;lzner<br>
+    Die vollst&auml;ndige Postadresse des Verantwortlichen wird auf Anfrage per E-Mail mitgeteilt.<br>
     The full postal address of the controller will be provided upon request by email.<br>
-    E-Mail: <a href="/cdn-cgi/l/email-protection#1c78796a7970736c796e656c2d5c7b717d7570327f7371"><span class="__cf_email__" data-cfemail="46222330232a293623343f367706212b272f2a6825292b">[email&#160;protected]</span></a>
+    E-Mail: <a href="mailto:gymtime.app@icloud.com">gymtime.app@icloud.com</a>
   </p>
 
   <h2>1. Verarbeitete Daten / Data Processed</h2>
-  <p>Die App verarbeitet nur die Daten, die für die Funktion zwingend erforderlich sind.<br>
+  <p>Die App verarbeitet nur die Daten, die f&uuml;r die Funktion zwingend erforderlich sind.<br>
      The app only processes data strictly required for functionality.</p>
 
   <ul>
-    <li><strong>Auslastungsdaten</strong> werden über die Magicline API, die FitX API und die Fitness First API abgerufen und angezeigt (ohne Personenbezug)<br>
-        <em>Occupancy data</em> is retrieved via the Magicline API, the FitX API and the Fitness First API and displayed (no personal data)</li>
+    <li><strong>Auslastungsdaten</strong> werden &uuml;ber die Magicline API, die FitX API, die clever fit API und die Fitness First API abgerufen und angezeigt (ohne Personenbezug)<br>
+        <em>Occupancy data</em> is retrieved via the Magicline API, FitX API, clever fit API and Fitness First API and displayed (no personal data)</li>
 
-    <li><strong>Lokale Speicherung</strong> von Auslastungs-Durchschnittswerten auf Ihrem Gerät zur Erstellung von Prognosen<br>
-        <em>Local storage</em> of occupancy averages on your device to generate forecasts</li>
+    <li><strong>Anonymisierte Auslastungsdaten</strong> werden an einen externen Server (Supabase) &uuml;bermittelt, um gemeinschaftliche Prognosen zu erstellen. Dabei wird ein zuf&auml;llig generierter Ger&auml;te-Hash zur Deduplizierung verwendet &ndash; dieser ist nicht r&uuml;ckverfolgbar.<br>
+        <em>Anonymized occupancy data</em> is transmitted to an external server (Supabase) to generate community-based forecasts. A randomly generated device hash is used for deduplication &ndash; it is not traceable.</li>
 
     <li><strong>Keine</strong> Erhebung personenbezogener Daten (kein Login, kein Nutzerkonto)<br>
         <em>No</em> collection of personal data (no login, no user account)</li>
@@ -61,59 +61,95 @@
     <li><strong>Keine</strong> Analyse- oder Tracking-Dienste<br>
         <em>No</em> analytics or tracking tools</li>
 
-    <li><strong>Keine</strong> In-App-Käufe, Werbung oder externe User-IDs<br>
+    <li><strong>Keine</strong> In-App-K&auml;ufe, Werbung oder externe User-IDs<br>
         <em>No</em> in-app purchases, ads or external user IDs</li>
 
     <li><strong>Keine</strong> Standortdaten<br>
         <em>No</em> location data</li>
   </ul>
 
-  <h2>1a. Lokale Datenspeicherung / Local Data Storage</h2>
+  <h2>1a. Serverseitige Datenspeicherung (Supabase) / Server-Side Data Storage (Supabase)</h2>
   <p>
-    Die App speichert Auslastungs-Durchschnittswerte lokal auf Ihrem Gerät, um Prognosen für verschiedene Wochentage und Uhrzeiten zu erstellen. Diese Daten verlassen Ihr Gerät nicht und enthalten keine personenbezogenen Informationen.<br>
-    The app stores occupancy averages locally on your device to generate forecasts for different days and times. This data never leaves your device and contains no personal information.
+    Die App &uuml;bermittelt anonymisierte Auslastungsbeobachtungen an einen externen Server (Supabase, gehostet in der EU), um Prognosen f&uuml;r alle Nutzer zu erstellen. Folgende Daten werden dabei &uuml;bertragen:<br>
+    The app transmits anonymized occupancy observations to an external server (Supabase, hosted in the EU) to generate forecasts for all users. The following data is transmitted:
+  </p>
+  <ul>
+    <li>Studio-ID, Wochentag, Uhrzeit und Auslastungsprozent / Studio ID, weekday, hour and occupancy percentage</li>
+    <li>Ein zuf&auml;llig generierter, anonymer Ger&auml;te-Hash (16 Zeichen) zur Deduplizierung / A randomly generated, anonymous device hash (16 characters) for deduplication</li>
+    <li>Datum der Beobachtung / Date of the observation</li>
+  </ul>
+  <p>
+    Es werden keine IP-Adressen, Ger&auml;te-IDs, Standortdaten oder sonstige personenbezogene Daten gespeichert oder &uuml;bermittelt. Der Ger&auml;te-Hash ist nicht r&uuml;ckverfolgbar und dient ausschlie&szlig;lich der Vermeidung von Doppeleintr&auml;gen.<br>
+    No IP addresses, device IDs, location data or other personal data is stored or transmitted. The device hash is not traceable and is used solely to prevent duplicate entries.
   </p>
 
   <h2>1b. Netzwerkverbindungen / Network Connections</h2>
   <p>
-    Die App stellt Verbindungen zur Magicline API und zur FitX API her, um Studioinformationen und Auslastungsdaten abzurufen. Dabei werden keine personenbezogenen Daten übermittelt. Es wird lediglich die Studio-ID zur Abfrage der Auslastung übertragen.<br>
-    The app connects to the Magicline API, the FitX API and the Fitness First API to retrieve studio information and occupancy data. No personal data is transmitted. Only the studio ID is sent to query occupancy data.
+    Die App stellt Verbindungen zu folgenden Diensten her, um Studioinformationen und Auslastungsdaten abzurufen:<br>
+    The app connects to the following services to retrieve studio information and occupancy data:
+  </p>
+  <ul>
+    <li>Magicline API (rsg-group.api.magicline.com) &ndash; RSG Group Studios</li>
+    <li>FitX API (mein.fitx.de) &ndash; FitX Studios</li>
+    <li>clever fit API (dein.clever-fit.com) &ndash; clever fit Studios</li>
+    <li>Fitness First API (www.fitnessfirst.de) &ndash; Fitness First Studios</li>
+    <li>Supabase (lubjhjoetscgpsckckjs.supabase.co) &ndash; Prognose-Daten / Forecast data</li>
+  </ul>
+  <p>
+    Dabei werden keine personenbezogenen Daten &uuml;bermittelt. Es wird lediglich die Studio-ID zur Abfrage der Auslastung &uuml;bertragen.<br>
+    No personal data is transmitted. Only the studio ID is sent to query occupancy data.
   </p>
 
   <h2>2. Rechtsgrundlagen / Legal Basis</h2>
   <p>
     Art. 6 Abs. 1 lit. b DSGVO (Betrieb der App),<br>
-    Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse – fehlerfreie Darstellung der Auslastungsdaten).<br><br>
+    Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse &ndash; fehlerfreie Darstellung der Auslastungsdaten und Erstellung gemeinschaftlicher Prognosen).<br><br>
 
     Art. 6(1)(b) GDPR (app operation),<br>
-    Art. 6(1)(f) GDPR (legitimate interest – correct display of occupancy data).
+    Art. 6(1)(f) GDPR (legitimate interest &ndash; correct display of occupancy data and generation of community-based forecasts).
   </p>
 
   <h2>3. Speicherfristen / Storage</h2>
   <p>
-    Die lokal gespeicherten Durchschnittswerte verbleiben auf Ihrem Gerät, bis Sie die App deinstallieren oder die Daten manuell löschen. Es werden keine personenbezogenen Daten gespeichert.<br>
-    Locally stored averages remain on your device until you uninstall the app or manually delete the data. No personal data is stored.
+    Die an Supabase &uuml;bermittelten anonymisierten Auslastungsdaten werden serverseitig zur Berechnung von Durchschnittswerten gespeichert. Da diese Daten keinen Personenbezug aufweisen, ist eine L&ouml;schung einzelner Nutzer-Beitr&auml;ge nicht m&ouml;glich.
+    Es werden keine personenbezogenen Daten gespeichert.<br>
+    The anonymized occupancy data transmitted to Supabase is stored on the server to calculate averages. Since this data contains no personal reference, deletion of individual user contributions is not possible.
+    No personal data is stored.
   </p>
 
   <h2>4. Weitergabe von Daten / Data Sharing</h2>
   <p>
-    Es findet keinerlei Weitergabe personenbezogener Daten an Dritte statt.<br>
-    There is no sharing of personal data with third parties.
+    Es findet keine Weitergabe personenbezogener Daten an Dritte statt. Die an Supabase &uuml;bermittelten Daten sind vollst&auml;ndig anonymisiert und enthalten keine personenbezogenen Informationen.<br>
+    There is no sharing of personal data with third parties. The data transmitted to Supabase is fully anonymized and contains no personal information.
   </p>
 
-  <h2>5. Rechte der Nutzer / Your Rights</h2>
+  <h2>5. Auftragsverarbeiter / Data Processors</h2>
   <p>
-    Sie haben jederzeit das Recht auf Auskunft, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit.<br>
-    You have the right to access, delete, restrict, object, and transfer your data.<br><br>
-    Kontakt / Contact: <a href="/cdn-cgi/l/email-protection#6c08091a0900031c091e151c5d2c0b010d0500420f0301"><span class="__cf_email__" data-cfemail="5e3a3b283b32312e3b2c272e6f1e39333f3732703d3133">[email&#160;protected]</span></a>
+    Die anonymisierten Prognose-Daten werden bei Supabase Inc. (USA / EU-Hosting) gespeichert. Es handelt sich dabei ausschlie&szlig;lich um nicht-personenbezogene, aggregierte Auslastungswerte.<br>
+    Anonymized forecast data is stored with Supabase Inc. (USA / EU hosting). This data consists exclusively of non-personal, aggregated occupancy values.
   </p>
 
-  <h2>6. Sicherheit / Security</h2>
+  <h2>6. Rechte der Nutzer / Your Rights</h2>
   <p>
-    Da keine personenbezogenen Daten übertragen werden, besteht ein sehr geringes Risiko. Dennoch können Datenübertragungen im Internet nie vollständig geschützt werden.<br>
-    Since no personal data is transmitted, the risk is very low. However, internet communication can never be fully secured.
+    Sie haben jederzeit das Recht auf Auskunft, L&ouml;schung, Einschr&auml;nkung, Widerspruch und Daten&uuml;bertragbarkeit.
+    Da die App keine personenbezogenen Daten erhebt, beziehen sich diese Rechte auf etwaige zuk&uuml;nftige &Auml;nderungen der Datenverarbeitung.<br>
+    You have the right to access, delete, restrict, object, and transfer your data.
+    Since the app does not collect personal data, these rights apply to any future changes in data processing.<br><br>
+    Kontakt / Contact: <a href="mailto:gymtime.app@icloud.com">gymtime.app@icloud.com</a>
   </p>
 
-  <h2>7. Änderungen / Changes</h2>
+  <h2>7. Sicherheit / Security</h2>
   <p>
-    Diese Datenschutzer
+    Da keine personenbezogenen Daten &uuml;bertragen werden, besteht ein sehr geringes Risiko. Die Kommunikation mit allen externen Diensten erfolgt ausschlie&szlig;lich verschl&uuml;sselt (HTTPS). Dennoch k&ouml;nnen Daten&uuml;bertragungen im Internet nie vollst&auml;ndig gesch&uuml;tzt werden.<br>
+    Since no personal data is transmitted, the risk is very low. All communication with external services is encrypted (HTTPS). However, internet communication can never be fully secured.
+  </p>
+
+  <h2>8. &Auml;nderungen / Changes</h2>
+  <p>
+    Diese Datenschutzerkl&auml;rung kann jederzeit angepasst werden, um ge&auml;nderten rechtlichen Anforderungen oder neuen Funktionen der App Rechnung zu tragen. Die aktuelle Version ist stets unter der unten stehenden Adresse abrufbar.<br>
+    This privacy policy may be updated at any time to reflect changed legal requirements or new app features. The current version is always available at the address below.
+  </p>
+
+  <p><a href="index.html">&larr; Zum Impressum / Back to Imprint</a></p>
+</body>
+</html>
